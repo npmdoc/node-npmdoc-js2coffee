@@ -1,9 +1,14 @@
-# api documentation for  [js2coffee (v2.2.0)](http://js2.coffee)  [![npm package](https://img.shields.io/npm/v/npmdoc-js2coffee.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-js2coffee) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-js2coffee.svg)](https://travis-ci.org/npmdoc/node-npmdoc-js2coffee)
+# npmdoc-js2coffee
+
+#### api documentation for  [js2coffee (v2.2.0)](http://js2.coffee)  [![npm package](https://img.shields.io/npm/v/npmdoc-js2coffee.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-js2coffee) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-js2coffee.svg)](https://travis-ci.org/npmdoc/node-npmdoc-js2coffee)
+
 #### JavaScript to CoffeeScript compiler
 
-[![NPM](https://nodei.co/npm/js2coffee.png?downloads=true)](https://www.npmjs.com/package/js2coffee)
+[![NPM](https://nodei.co/npm/js2coffee.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/js2coffee)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-js2coffee/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-js2coffee_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-js2coffee/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-js2coffee/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-js2coffee/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-js2coffee/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-js2coffee/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-js2coffee/build/screenCapture.npmPackageListing.svg)
 
@@ -17,8 +22,7 @@
 
 {
     "author": {
-        "name": "Rico Sta. Cruz",
-        "email": "hi@ricostacruz.com"
+        "name": "Rico Sta. Cruz"
     },
     "bin": {
         "js2coffee": "./bin/js2coffee"
@@ -66,21 +70,17 @@
     "main": "dist/js2coffee.js",
     "maintainers": [
         {
-            "name": "rstacruz",
-            "email": "rico@ricostacruz.com"
+            "name": "rstacruz"
         },
         {
-            "name": "balupton",
-            "email": "b@lupton.cc"
+            "name": "balupton"
         },
         {
-            "name": "timaschew",
-            "email": "timaschew@gmail.com"
+            "name": "timaschew"
         }
     ],
     "name": "js2coffee",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/js2coffee/js2coffee.git"
@@ -92,84 +92,6 @@
     },
     "version": "2.2.0"
 }
-```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module js2coffee](#apidoc.module.js2coffee)
-1.  [function <span class="apidocSignatureSpan">js2coffee.</span>build (e, t)](#apidoc.element.js2coffee.build)
-1.  [function <span class="apidocSignatureSpan">js2coffee.</span>generate (e, t)](#apidoc.element.js2coffee.generate)
-1.  [function <span class="apidocSignatureSpan">js2coffee.</span>parseJS (t, u)](#apidoc.element.js2coffee.parseJS)
-1.  [function <span class="apidocSignatureSpan">js2coffee.</span>transform (t, u)](#apidoc.element.js2coffee.transform)
-1.  string <span class="apidocSignatureSpan">js2coffee.</span>version
-
-
-
-# <a name="apidoc.module.js2coffee"></a>[module js2coffee](#apidoc.module.js2coffee)
-
-#### <a name="apidoc.element.js2coffee.build"></a>[function <span class="apidocSignatureSpan">js2coffee.</span>build (e, t)](#apidoc.element.js2coffee.build)
-- description and source-code
-```javascript
-build = function (e, t){var u,n,r,i,o,a;if(t==null){t={}}if(t.filename==null){t.filename="input.js"}if(t.indent==null){t.indent=2}t.source
-=e;u=s.parseJS(e,t);i=s.transform(u,t),u=i.ast,a=i.warnings;o=s.generate(u,t),n=o.code,r=o.map;return{code:n,ast:u,map:r,warnings
-:a}}
-```
-- example usage
-```shell
-...
-<br>
-
-## JavaScript API
-
-Available via npm ('require('js2coffee')'), or via CDN in the browser (as 'window.js2coffee'):
-
-'''js
-result = js2coffee.build(source);
-
-result.code     // code string
-result.ast      // transformed AST
-result.map      // source map
-result.warnings // array of warnings
-'''
-...
-```
-
-#### <a name="apidoc.element.js2coffee.generate"></a>[function <span class="apidocSignatureSpan">js2coffee.</span>generate (e, t)](#apidoc.element.js2coffee.generate)
-- description and source-code
-```javascript
-generate = function (e, t){if(t==null){t={}}return new n(e,t).get()}
-```
-- example usage
-```shell
-n/a
-```
-
-#### <a name="apidoc.element.js2coffee.parseJS"></a>[function <span class="apidocSignatureSpan">js2coffee.</span>parseJS (t, u)](#apidoc.element.js2coffee.parseJS)
-- description and source-code
-```javascript
-parseJS = function (t, u){var n,r,i;if(u==null){u={}}try{n=e("esprima");return n.parse(t,{loc:true,range:true,comment:true})}catch(i){r=i;throw
- o(r,t,u.filename)}}
-```
-- example usage
-```shell
-n/a
-```
-
-#### <a name="apidoc.element.js2coffee.transform"></a>[function <span class="apidocSignatureSpan">js2coffee.</span>transform (t, u)](#apidoc.element.js2coffee.transform)
-- description and source-code
-```javascript
-transform = function (t, u){var n,r,o;if(u==null){u={}}r={};o=function(e){return i.run(t,u,e,r)};n=!(u.comments===false);if(n){o([e("./lib/transforms
-/comments")])}o([e("./lib/transforms/functions")]);o([e("./lib/transforms/exponents"),e("./lib/transforms/ifs"),e("./lib/transforms
-/iife"),e("./lib/transforms/literals"),e("./lib/transforms/loops"),e("./lib/transforms/members"),e("./lib/transforms/objects"),e
-("./lib/transforms/binary"),e("./lib/transforms/empty_statements"),e("./lib/transforms/others"),e("./lib/transforms/precedence"),
-e("./lib/transforms/returns"),e("./lib/transforms/switches"),e("./lib/transforms/unsupported")]);o([e("./lib/transforms/blocks")]);
-return{ast:t,warnings:r.warnings}}
-```
-- example usage
-```shell
-n/a
 ```
 
 
