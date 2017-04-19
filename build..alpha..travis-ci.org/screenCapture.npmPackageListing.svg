@@ -1,411 +1,411 @@
 <svg height="6526" width="720" xmlns="http://www.w3.org/2000/svg">
 <rect height="6526" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">  0.  2017-04-19 02:37:55 +0000   514927 bytes  .</tspan>
-<tspan x="10" y="42">  1.  2017-04-19 02:37:55 +0000      184 bytes  CONTRIBUTING.md</tspan>
-<tspan x="10" y="58">  2.  2017-04-19 02:37:55 +0000    16317 bytes  HISTORY.md</tspan>
-<tspan x="10" y="74">  3.  2017-04-19 02:37:55 +0000     1081 bytes  LICENSE</tspan>
-<tspan x="10" y="90">  4.  2017-04-19 02:37:55 +0000      546 bytes  Makefile</tspan>
-<tspan x="10" y="106">  5.  2017-04-19 02:37:55 +0000     3374 bytes  README.md</tspan>
-<tspan x="10" y="122">  6.  2017-04-19 02:37:55 +0000      490 bytes  Usage.txt</tspan>
-<tspan x="10" y="138">  7.  2017-04-19 02:37:55 +0000     2466 bytes  bin/js2coffee</tspan>
-<tspan x="10" y="154">  8.  2017-04-19 02:37:55 +0000   243498 bytes  dist/js2coffee.js</tspan>
-<tspan x="10" y="170">  9.  2017-04-19 02:37:55 +0000       83 bytes  index.js</tspan>
-<tspan x="10" y="186"> 10.  2017-04-19 02:37:55 +0000     4039 bytes  js2coffee.coffee</tspan>
-<tspan x="10" y="202"> 11.  2017-04-19 02:37:55 +0000     1921 bytes  lib/builder/base.coffee</tspan>
-<tspan x="10" y="218"> 12.  2017-04-19 02:37:55 +0000    12373 bytes  lib/builder/index.coffee</tspan>
-<tspan x="10" y="234"> 13.  2017-04-19 02:37:55 +0000     2058 bytes  lib/builder/strip_spaces.coffee</tspan>
-<tspan x="10" y="250"> 14.  2017-04-19 02:37:55 +0000     1800 bytes  lib/cli.js</tspan>
-<tspan x="10" y="266"> 15.  2017-04-19 02:37:55 +0000     9671 bytes  lib/helpers.coffee</tspan>
-<tspan x="10" y="282"> 16.  2017-04-19 02:37:55 +0000     9671 bytes  lib/helpers/index.coffee</tspan>
-<tspan x="10" y="298"> 17.  2017-04-19 02:37:55 +0000      993 bytes  lib/support/debug.coffee</tspan>
-<tspan x="10" y="314"> 18.  2017-04-19 02:37:55 +0000      493 bytes  lib/support/report_notes.coffee</tspan>
-<tspan x="10" y="330"> 19.  2017-04-19 02:37:55 +0000      732 bytes  lib/support/report_specs.coffee</tspan>
-<tspan x="10" y="346"> 20.  2017-04-19 02:37:55 +0000     1126 bytes  lib/support/specs_iterator.coffee</tspan>
-<tspan x="10" y="362"> 21.  2017-04-19 02:37:55 +0000     7634 bytes  lib/transforms/base.coffee</tspan>
-<tspan x="10" y="378"> 22.  2017-04-19 02:37:55 +0000     1023 bytes  lib/transforms/binary.coffee</tspan>
-<tspan x="10" y="394"> 23.  2017-04-19 02:37:55 +0000      837 bytes  lib/transforms/blocks.coffee</tspan>
-<tspan x="10" y="410"> 24.  2017-04-19 02:37:55 +0000     3156 bytes  lib/transforms/comments.coffee</tspan>
-<tspan x="10" y="426"> 25.  2017-04-19 02:37:55 +0000      606 bytes  lib/transforms/empty_statements.coffee</tspan>
-<tspan x="10" y="442"> 26.  2017-04-19 02:37:55 +0000      668 bytes  lib/transforms/exponents.coffee</tspan>
-<tspan x="10" y="458"> 27.  2017-04-19 02:37:55 +0000     2597 bytes  lib/transforms/functions.coffee</tspan>
-<tspan x="10" y="474"> 28.  2017-04-19 02:37:55 +0000     1659 bytes  lib/transforms/ifs.coffee</tspan>
-<tspan x="10" y="490"> 29.  2017-04-19 02:37:55 +0000      948 bytes  lib/transforms/iife.coffee</tspan>
-<tspan x="10" y="506"> 30.  2017-04-19 02:37:55 +0000      809 bytes  lib/transforms/literals.coffee</tspan>
-<tspan x="10" y="522"> 31.  2017-04-19 02:37:55 +0000     3179 bytes  lib/transforms/loops.coffee</tspan>
-<tspan x="10" y="538"> 32.  2017-04-19 02:37:55 +0000     1641 bytes  lib/transforms/members.coffee</tspan>
-<tspan x="10" y="554"> 33.  2017-04-19 02:37:55 +0000     1134 bytes  lib/transforms/objects.coffee</tspan>
-<tspan x="10" y="570"> 34.  2017-04-19 02:37:55 +0000     4268 bytes  lib/transforms/others.coffee</tspan>
-<tspan x="10" y="586"> 35.  2017-04-19 02:37:55 +0000     1710 bytes  lib/transforms/precedence.coffee</tspan>
-<tspan x="10" y="602"> 36.  2017-04-19 02:37:55 +0000      871 bytes  lib/transforms/returns.coffee</tspan>
-<tspan x="10" y="618"> 37.  2017-04-19 02:37:55 +0000     2218 bytes  lib/transforms/switches.coffee</tspan>
-<tspan x="10" y="634"> 38.  2017-04-19 02:37:55 +0000      385 bytes  lib/transforms/unsupported.coffee</tspan>
-<tspan x="10" y="650"> 39.  2017-04-19 02:37:55 +0000    10220 bytes  notes/AST.md</tspan>
-<tspan x="10" y="666"> 40.  2017-04-19 02:37:55 +0000     1496 bytes  notes/About_redux.md</tspan>
-<tspan x="10" y="682"> 41.  2017-04-19 02:37:55 +0000     1435 bytes  notes/Goals.md</tspan>
-<tspan x="10" y="698"> 42.  2017-04-19 02:37:55 +0000     1180 bytes  notes/Hacking.md</tspan>
-<tspan x="10" y="714"> 43.  2017-04-19 02:37:55 +0000     2069 bytes  notes/Migration_guide.md</tspan>
-<tspan x="10" y="730"> 44.  2017-04-19 02:37:55 +0000     3398 bytes  notes/New_in_2.0.md</tspan>
-<tspan x="10" y="746"> 45.  2017-04-19 02:37:55 +0000     1101 bytes  notes/Precedence.md</tspan>
-<tspan x="10" y="762"> 46.  2017-04-19 02:37:55 +0000     1945 bytes  notes/Redux_history.md</tspan>
-<tspan x="10" y="778"> 47.  2017-04-19 02:37:55 +0000     9926 bytes  notes/Special_cases.md</tspan>
-<tspan x="10" y="794"> 48.  2017-04-19 02:37:55 +0000    77963 bytes  notes/Specs.md</tspan>
-<tspan x="10" y="810"> 49.  2017-04-19 02:37:55 +0000     3007 bytes  package.json</tspan>
-<tspan x="10" y="826"> 50.  2017-04-19 02:37:55 +0000       28 bytes  specs/arrays/empty_array.txt</tspan>
-<tspan x="10" y="842"> 51.  2017-04-19 02:37:55 +0000       57 bytes  specs/arrays/multiple_items.txt</tspan>
-<tspan x="10" y="858"> 52.  2017-04-19 02:37:55 +0000       95 bytes  specs/comments/after_block_comment.txt</tspan>
-<tspan x="10" y="874"> 53.  2017-04-19 02:37:55 +0000      249 bytes  specs/comments/block_comments.txt</tspan>
-<tspan x="10" y="890"> 54.  2017-04-19 02:37:55 +0000      106 bytes  specs/comments/block_comments_in_blocks.txt</tspan>
-<tspan x="10" y="906"> 55.  2017-04-19 02:37:55 +0000       50 bytes  specs/comments/block_comments_with_space.txt</tspan>
-<tspan x="10" y="922"> 56.  2017-04-19 02:37:55 +0000       99 bytes  specs/comments/comment_before_function.txt</tspan>
-<tspan x="10" y="938"> 57.  2017-04-19 02:37:55 +0000       78 bytes  specs/comments/comments_in_if_blocks.txt</tspan>
-<tspan x="10" y="954"> 58.  2017-04-19 02:37:55 +0000      113 bytes  specs/comments/indented_jsdoc_comments.txt</tspan>
-<tspan x="10" y="970"> 59.  2017-04-19 02:37:55 +0000       45 bytes  specs/comments/line_comments.txt</tspan>
-<tspan x="10" y="986"> 60.  2017-04-19 02:37:55 +0000      106 bytes  specs/comments/line_comments_before_function.txt</tspan>
-<tspan x="10" y="1002"> 61.  2017-04-19 02:37:55 +0000      194 bytes  specs/comments/multiple_functions_with_multiple_\</tspan>
+<tspan x="10" y="26">  0.  2017-04-19 02:38:58 +0000   514927 bytes  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-19 02:38:58 +0000      184 bytes  CONTRIBUTING.md</tspan>
+<tspan x="10" y="58">  2.  2017-04-19 02:38:58 +0000    16317 bytes  HISTORY.md</tspan>
+<tspan x="10" y="74">  3.  2017-04-19 02:38:58 +0000     1081 bytes  LICENSE</tspan>
+<tspan x="10" y="90">  4.  2017-04-19 02:38:58 +0000      546 bytes  Makefile</tspan>
+<tspan x="10" y="106">  5.  2017-04-19 02:38:58 +0000     3374 bytes  README.md</tspan>
+<tspan x="10" y="122">  6.  2017-04-19 02:38:58 +0000      490 bytes  Usage.txt</tspan>
+<tspan x="10" y="138">  7.  2017-04-19 02:38:58 +0000     2466 bytes  bin/js2coffee</tspan>
+<tspan x="10" y="154">  8.  2017-04-19 02:38:58 +0000   243498 bytes  dist/js2coffee.js</tspan>
+<tspan x="10" y="170">  9.  2017-04-19 02:38:58 +0000       83 bytes  index.js</tspan>
+<tspan x="10" y="186"> 10.  2017-04-19 02:38:58 +0000     4039 bytes  js2coffee.coffee</tspan>
+<tspan x="10" y="202"> 11.  2017-04-19 02:38:58 +0000     1921 bytes  lib/builder/base.coffee</tspan>
+<tspan x="10" y="218"> 12.  2017-04-19 02:38:58 +0000    12373 bytes  lib/builder/index.coffee</tspan>
+<tspan x="10" y="234"> 13.  2017-04-19 02:38:58 +0000     2058 bytes  lib/builder/strip_spaces.coffee</tspan>
+<tspan x="10" y="250"> 14.  2017-04-19 02:38:58 +0000     1800 bytes  lib/cli.js</tspan>
+<tspan x="10" y="266"> 15.  2017-04-19 02:38:58 +0000     9671 bytes  lib/helpers.coffee</tspan>
+<tspan x="10" y="282"> 16.  2017-04-19 02:38:58 +0000     9671 bytes  lib/helpers/index.coffee</tspan>
+<tspan x="10" y="298"> 17.  2017-04-19 02:38:58 +0000      993 bytes  lib/support/debug.coffee</tspan>
+<tspan x="10" y="314"> 18.  2017-04-19 02:38:58 +0000      493 bytes  lib/support/report_notes.coffee</tspan>
+<tspan x="10" y="330"> 19.  2017-04-19 02:38:58 +0000      732 bytes  lib/support/report_specs.coffee</tspan>
+<tspan x="10" y="346"> 20.  2017-04-19 02:38:58 +0000     1126 bytes  lib/support/specs_iterator.coffee</tspan>
+<tspan x="10" y="362"> 21.  2017-04-19 02:38:58 +0000     7634 bytes  lib/transforms/base.coffee</tspan>
+<tspan x="10" y="378"> 22.  2017-04-19 02:38:58 +0000     1023 bytes  lib/transforms/binary.coffee</tspan>
+<tspan x="10" y="394"> 23.  2017-04-19 02:38:58 +0000      837 bytes  lib/transforms/blocks.coffee</tspan>
+<tspan x="10" y="410"> 24.  2017-04-19 02:38:58 +0000     3156 bytes  lib/transforms/comments.coffee</tspan>
+<tspan x="10" y="426"> 25.  2017-04-19 02:38:58 +0000      606 bytes  lib/transforms/empty_statements.coffee</tspan>
+<tspan x="10" y="442"> 26.  2017-04-19 02:38:58 +0000      668 bytes  lib/transforms/exponents.coffee</tspan>
+<tspan x="10" y="458"> 27.  2017-04-19 02:38:58 +0000     2597 bytes  lib/transforms/functions.coffee</tspan>
+<tspan x="10" y="474"> 28.  2017-04-19 02:38:58 +0000     1659 bytes  lib/transforms/ifs.coffee</tspan>
+<tspan x="10" y="490"> 29.  2017-04-19 02:38:58 +0000      948 bytes  lib/transforms/iife.coffee</tspan>
+<tspan x="10" y="506"> 30.  2017-04-19 02:38:58 +0000      809 bytes  lib/transforms/literals.coffee</tspan>
+<tspan x="10" y="522"> 31.  2017-04-19 02:38:58 +0000     3179 bytes  lib/transforms/loops.coffee</tspan>
+<tspan x="10" y="538"> 32.  2017-04-19 02:38:58 +0000     1641 bytes  lib/transforms/members.coffee</tspan>
+<tspan x="10" y="554"> 33.  2017-04-19 02:38:58 +0000     1134 bytes  lib/transforms/objects.coffee</tspan>
+<tspan x="10" y="570"> 34.  2017-04-19 02:38:58 +0000     4268 bytes  lib/transforms/others.coffee</tspan>
+<tspan x="10" y="586"> 35.  2017-04-19 02:38:58 +0000     1710 bytes  lib/transforms/precedence.coffee</tspan>
+<tspan x="10" y="602"> 36.  2017-04-19 02:38:58 +0000      871 bytes  lib/transforms/returns.coffee</tspan>
+<tspan x="10" y="618"> 37.  2017-04-19 02:38:58 +0000     2218 bytes  lib/transforms/switches.coffee</tspan>
+<tspan x="10" y="634"> 38.  2017-04-19 02:38:58 +0000      385 bytes  lib/transforms/unsupported.coffee</tspan>
+<tspan x="10" y="650"> 39.  2017-04-19 02:38:58 +0000    10220 bytes  notes/AST.md</tspan>
+<tspan x="10" y="666"> 40.  2017-04-19 02:38:58 +0000     1496 bytes  notes/About_redux.md</tspan>
+<tspan x="10" y="682"> 41.  2017-04-19 02:38:58 +0000     1435 bytes  notes/Goals.md</tspan>
+<tspan x="10" y="698"> 42.  2017-04-19 02:38:58 +0000     1180 bytes  notes/Hacking.md</tspan>
+<tspan x="10" y="714"> 43.  2017-04-19 02:38:58 +0000     2069 bytes  notes/Migration_guide.md</tspan>
+<tspan x="10" y="730"> 44.  2017-04-19 02:38:58 +0000     3398 bytes  notes/New_in_2.0.md</tspan>
+<tspan x="10" y="746"> 45.  2017-04-19 02:38:58 +0000     1101 bytes  notes/Precedence.md</tspan>
+<tspan x="10" y="762"> 46.  2017-04-19 02:38:58 +0000     1945 bytes  notes/Redux_history.md</tspan>
+<tspan x="10" y="778"> 47.  2017-04-19 02:38:58 +0000     9926 bytes  notes/Special_cases.md</tspan>
+<tspan x="10" y="794"> 48.  2017-04-19 02:38:58 +0000    77963 bytes  notes/Specs.md</tspan>
+<tspan x="10" y="810"> 49.  2017-04-19 02:38:58 +0000     3007 bytes  package.json</tspan>
+<tspan x="10" y="826"> 50.  2017-04-19 02:38:58 +0000       28 bytes  specs/arrays/empty_array.txt</tspan>
+<tspan x="10" y="842"> 51.  2017-04-19 02:38:58 +0000       57 bytes  specs/arrays/multiple_items.txt</tspan>
+<tspan x="10" y="858"> 52.  2017-04-19 02:38:58 +0000       95 bytes  specs/comments/after_block_comment.txt</tspan>
+<tspan x="10" y="874"> 53.  2017-04-19 02:38:58 +0000      249 bytes  specs/comments/block_comments.txt</tspan>
+<tspan x="10" y="890"> 54.  2017-04-19 02:38:58 +0000      106 bytes  specs/comments/block_comments_in_blocks.txt</tspan>
+<tspan x="10" y="906"> 55.  2017-04-19 02:38:58 +0000       50 bytes  specs/comments/block_comments_with_space.txt</tspan>
+<tspan x="10" y="922"> 56.  2017-04-19 02:38:58 +0000       99 bytes  specs/comments/comment_before_function.txt</tspan>
+<tspan x="10" y="938"> 57.  2017-04-19 02:38:58 +0000       78 bytes  specs/comments/comments_in_if_blocks.txt</tspan>
+<tspan x="10" y="954"> 58.  2017-04-19 02:38:58 +0000      113 bytes  specs/comments/indented_jsdoc_comments.txt</tspan>
+<tspan x="10" y="970"> 59.  2017-04-19 02:38:58 +0000       45 bytes  specs/comments/line_comments.txt</tspan>
+<tspan x="10" y="986"> 60.  2017-04-19 02:38:58 +0000      106 bytes  specs/comments/line_comments_before_function.txt</tspan>
+<tspan x="10" y="1002"> 61.  2017-04-19 02:38:58 +0000      194 bytes  specs/comments/multiple_functions_with_multiple_\</tspan>
 <tspan x="10" y="1018">comments.txt</tspan>
-<tspan x="10" y="1034"> 62.  2017-04-19 02:37:55 +0000       52 bytes  specs/comments/program_block_comment_after.txt</tspan>
-<tspan x="10" y="1050"> 63.  2017-04-19 02:37:55 +0000       52 bytes  specs/comments/program_block_comment_before.txt</tspan>
-<tspan x="10" y="1066"> 64.  2017-04-19 02:37:55 +0000       42 bytes  specs/comments/program_block_comment_sole.txt</tspan>
-<tspan x="10" y="1082"> 65.  2017-04-19 02:37:55 +0000       65 bytes  specs/comments/program_with_only_comments.txt</tspan>
-<tspan x="10" y="1098"> 66.  2017-04-19 02:37:55 +0000       91 bytes  specs/comments/sole_block_comment.txt</tspan>
-<tspan x="10" y="1114"> 67.  2017-04-19 02:37:55 +0000       61 bytes  specs/comments/trailing_line_comment.txt</tspan>
-<tspan x="10" y="1130"> 68.  2017-04-19 02:37:55 +0000      436 bytes  specs/compatibility_mode/assignment_of_reserved_\</tspan>
+<tspan x="10" y="1034"> 62.  2017-04-19 02:38:58 +0000       52 bytes  specs/comments/program_block_comment_after.txt</tspan>
+<tspan x="10" y="1050"> 63.  2017-04-19 02:38:58 +0000       52 bytes  specs/comments/program_block_comment_before.txt</tspan>
+<tspan x="10" y="1066"> 64.  2017-04-19 02:38:58 +0000       42 bytes  specs/comments/program_block_comment_sole.txt</tspan>
+<tspan x="10" y="1082"> 65.  2017-04-19 02:38:58 +0000       65 bytes  specs/comments/program_with_only_comments.txt</tspan>
+<tspan x="10" y="1098"> 66.  2017-04-19 02:38:58 +0000       91 bytes  specs/comments/sole_block_comment.txt</tspan>
+<tspan x="10" y="1114"> 67.  2017-04-19 02:38:58 +0000       61 bytes  specs/comments/trailing_line_comment.txt</tspan>
+<tspan x="10" y="1130"> 68.  2017-04-19 02:38:58 +0000      436 bytes  specs/compatibility_mode/assignment_of_reserved_\</tspan>
 <tspan x="10" y="1146">words.txt</tspan>
-<tspan x="10" y="1162"> 69.  2017-04-19 02:37:55 +0000       66 bytes  specs/compatibility_mode/assignment_of_reserved_\</tspan>
+<tspan x="10" y="1162"> 69.  2017-04-19 02:38:58 +0000       66 bytes  specs/compatibility_mode/assignment_of_reserved_\</tspan>
 <tspan x="10" y="1178">words_off.txt</tspan>
-<tspan x="10" y="1194"> 70.  2017-04-19 02:37:55 +0000       56 bytes  specs/compatibility_mode/empty_array_slots.txt</tspan>
-<tspan x="10" y="1210"> 71.  2017-04-19 02:37:55 +0000       72 bytes  specs/compatibility_mode/empty_array_slots_off.t\</tspan>
+<tspan x="10" y="1194"> 70.  2017-04-19 02:38:58 +0000       56 bytes  specs/compatibility_mode/empty_array_slots.txt</tspan>
+<tspan x="10" y="1210"> 71.  2017-04-19 02:38:58 +0000       72 bytes  specs/compatibility_mode/empty_array_slots_off.t\</tspan>
 <tspan x="10" y="1226">xt</tspan>
-<tspan x="10" y="1242"> 72.  2017-04-19 02:37:55 +0000      504 bytes  specs/compatibility_mode/equals.txt</tspan>
-<tspan x="10" y="1258"> 73.  2017-04-19 02:37:55 +0000      130 bytes  specs/compatibility_mode/equals_off.txt</tspan>
-<tspan x="10" y="1274"> 74.  2017-04-19 02:37:55 +0000      275 bytes  specs/compatibility_mode/named_function_expressi\</tspan>
+<tspan x="10" y="1242"> 72.  2017-04-19 02:38:58 +0000      504 bytes  specs/compatibility_mode/equals.txt</tspan>
+<tspan x="10" y="1258"> 73.  2017-04-19 02:38:58 +0000      130 bytes  specs/compatibility_mode/equals_off.txt</tspan>
+<tspan x="10" y="1274"> 74.  2017-04-19 02:38:58 +0000      275 bytes  specs/compatibility_mode/named_function_expressi\</tspan>
 <tspan x="10" y="1290">ons.txt</tspan>
-<tspan x="10" y="1306"> 75.  2017-04-19 02:37:55 +0000      468 bytes  specs/compatibility_mode/named_function_expressi\</tspan>
+<tspan x="10" y="1306"> 75.  2017-04-19 02:38:58 +0000      468 bytes  specs/compatibility_mode/named_function_expressi\</tspan>
 <tspan x="10" y="1322">ons_off.txt</tspan>
-<tspan x="10" y="1338"> 76.  2017-04-19 02:37:55 +0000      364 bytes  specs/compatibility_mode/undefined.txt</tspan>
-<tspan x="10" y="1354"> 77.  2017-04-19 02:37:55 +0000       30 bytes  specs/compatibility_mode/undefined_off.txt</tspan>
-<tspan x="10" y="1370"> 78.  2017-04-19 02:37:55 +0000      111 bytes  specs/default_params/mixed_params.txt</tspan>
-<tspan x="10" y="1386"> 79.  2017-04-19 02:37:55 +0000      101 bytes  specs/default_params/mixed_params_2.txt</tspan>
-<tspan x="10" y="1402"> 80.  2017-04-19 02:37:55 +0000       91 bytes  specs/default_params/with_defaults.txt</tspan>
-<tspan x="10" y="1418"> 81.  2017-04-19 02:37:55 +0000       92 bytes  specs/default_params/with_non_literal_defaults.t\</tspan>
+<tspan x="10" y="1338"> 76.  2017-04-19 02:38:58 +0000      364 bytes  specs/compatibility_mode/undefined.txt</tspan>
+<tspan x="10" y="1354"> 77.  2017-04-19 02:38:58 +0000       30 bytes  specs/compatibility_mode/undefined_off.txt</tspan>
+<tspan x="10" y="1370"> 78.  2017-04-19 02:38:58 +0000      111 bytes  specs/default_params/mixed_params.txt</tspan>
+<tspan x="10" y="1386"> 79.  2017-04-19 02:38:58 +0000      101 bytes  specs/default_params/mixed_params_2.txt</tspan>
+<tspan x="10" y="1402"> 80.  2017-04-19 02:38:58 +0000       91 bytes  specs/default_params/with_defaults.txt</tspan>
+<tspan x="10" y="1418"> 81.  2017-04-19 02:38:58 +0000       92 bytes  specs/default_params/with_non_literal_defaults.t\</tspan>
 <tspan x="10" y="1434">xt</tspan>
-<tspan x="10" y="1450"> 82.  2017-04-19 02:37:55 +0000      102 bytes  specs/errors/breakless_switch.txt</tspan>
-<tspan x="10" y="1466"> 83.  2017-04-19 02:37:55 +0000       68 bytes  specs/errors/reserved_keyword.txt</tspan>
-<tspan x="10" y="1482"> 84.  2017-04-19 02:37:55 +0000       74 bytes  specs/errors/reserved_keyword_in_params.txt</tspan>
-<tspan x="10" y="1498"> 85.  2017-04-19 02:37:55 +0000       67 bytes  specs/errors/reserved_keyword_in_var.txt</tspan>
-<tspan x="10" y="1514"> 86.  2017-04-19 02:37:55 +0000      122 bytes  specs/errors/switch_default_cases.txt</tspan>
-<tspan x="10" y="1530"> 87.  2017-04-19 02:37:55 +0000       56 bytes  specs/errors/with.txt</tspan>
-<tspan x="10" y="1546"> 88.  2017-04-19 02:37:55 +0000       84 bytes  specs/function_calls/call_with_function_expressi\</tspan>
+<tspan x="10" y="1450"> 82.  2017-04-19 02:38:58 +0000      102 bytes  specs/errors/breakless_switch.txt</tspan>
+<tspan x="10" y="1466"> 83.  2017-04-19 02:38:58 +0000       68 bytes  specs/errors/reserved_keyword.txt</tspan>
+<tspan x="10" y="1482"> 84.  2017-04-19 02:38:58 +0000       74 bytes  specs/errors/reserved_keyword_in_params.txt</tspan>
+<tspan x="10" y="1498"> 85.  2017-04-19 02:38:58 +0000       67 bytes  specs/errors/reserved_keyword_in_var.txt</tspan>
+<tspan x="10" y="1514"> 86.  2017-04-19 02:38:58 +0000      122 bytes  specs/errors/switch_default_cases.txt</tspan>
+<tspan x="10" y="1530"> 87.  2017-04-19 02:38:58 +0000       56 bytes  specs/errors/with.txt</tspan>
+<tspan x="10" y="1546"> 88.  2017-04-19 02:38:58 +0000       84 bytes  specs/function_calls/call_with_function_expressi\</tspan>
 <tspan x="10" y="1562">on.txt</tspan>
-<tspan x="10" y="1578"> 89.  2017-04-19 02:37:55 +0000      108 bytes  specs/function_calls/call_with_function_indented\</tspan>
+<tspan x="10" y="1578"> 89.  2017-04-19 02:38:58 +0000      108 bytes  specs/function_calls/call_with_function_indented\</tspan>
 <tspan x="10" y="1594">.txt</tspan>
-<tspan x="10" y="1610"> 90.  2017-04-19 02:37:55 +0000      146 bytes  specs/function_calls/call_with_function_then_obj\</tspan>
+<tspan x="10" y="1610"> 90.  2017-04-19 02:38:58 +0000      146 bytes  specs/function_calls/call_with_function_then_obj\</tspan>
 <tspan x="10" y="1626">ect.txt</tspan>
-<tspan x="10" y="1642"> 91.  2017-04-19 02:37:55 +0000      233 bytes  specs/function_calls/call_with_multiple_objects.\</tspan>
+<tspan x="10" y="1642"> 91.  2017-04-19 02:38:58 +0000      233 bytes  specs/function_calls/call_with_multiple_objects.\</tspan>
 <tspan x="10" y="1658">txt</tspan>
-<tspan x="10" y="1674"> 92.  2017-04-19 02:37:55 +0000      160 bytes  specs/function_calls/call_with_object.txt</tspan>
-<tspan x="10" y="1690"> 93.  2017-04-19 02:37:55 +0000       92 bytes  specs/function_calls/call_with_param_after_funct\</tspan>
+<tspan x="10" y="1674"> 92.  2017-04-19 02:38:58 +0000      160 bytes  specs/function_calls/call_with_object.txt</tspan>
+<tspan x="10" y="1690"> 93.  2017-04-19 02:38:58 +0000       92 bytes  specs/function_calls/call_with_param_after_funct\</tspan>
 <tspan x="10" y="1706">ion.txt</tspan>
-<tspan x="10" y="1722"> 94.  2017-04-19 02:37:55 +0000      125 bytes  specs/function_calls/chaining.txt</tspan>
-<tspan x="10" y="1738"> 95.  2017-04-19 02:37:55 +0000       78 bytes  specs/function_calls/expression_with_call.txt</tspan>
-<tspan x="10" y="1754"> 96.  2017-04-19 02:37:55 +0000       88 bytes  specs/function_calls/iife_with_different_argumen\</tspan>
+<tspan x="10" y="1722"> 94.  2017-04-19 02:38:58 +0000      125 bytes  specs/function_calls/chaining.txt</tspan>
+<tspan x="10" y="1738"> 95.  2017-04-19 02:38:58 +0000       78 bytes  specs/function_calls/expression_with_call.txt</tspan>
+<tspan x="10" y="1754"> 96.  2017-04-19 02:38:58 +0000       88 bytes  specs/function_calls/iife_with_different_argumen\</tspan>
 <tspan x="10" y="1770">t_names.txt</tspan>
-<tspan x="10" y="1786"> 97.  2017-04-19 02:37:55 +0000      121 bytes  specs/functions/dont_unpack_returns_in_incomplet\</tspan>
+<tspan x="10" y="1786"> 97.  2017-04-19 02:38:58 +0000      121 bytes  specs/functions/dont_unpack_returns_in_incomplet\</tspan>
 <tspan x="10" y="1802">e_ifs.txt</tspan>
-<tspan x="10" y="1818"> 98.  2017-04-19 02:37:55 +0000      582 bytes  specs/functions/function_reordering.txt</tspan>
-<tspan x="10" y="1834"> 99.  2017-04-19 02:37:55 +0000      134 bytes  specs/functions/functions_after_var.txt</tspan>
-<tspan x="10" y="1850">100.  2017-04-19 02:37:55 +0000      224 bytes  specs/functions/functions_in_ternaries.txt</tspan>
-<tspan x="10" y="1866">101.  2017-04-19 02:37:55 +0000      107 bytes  specs/functions/multiple_declarations.txt</tspan>
-<tspan x="10" y="1882">102.  2017-04-19 02:37:55 +0000      131 bytes  specs/functions/multiple_expressions.txt</tspan>
-<tspan x="10" y="1898">103.  2017-04-19 02:37:55 +0000      104 bytes  specs/functions/named_function_expressions.txt</tspan>
-<tspan x="10" y="1914">104.  2017-04-19 02:37:55 +0000       97 bytes  specs/functions/nested_declarations.txt</tspan>
-<tspan x="10" y="1930">105.  2017-04-19 02:37:55 +0000      114 bytes  specs/functions/nested_functions_in_object.txt</tspan>
-<tspan x="10" y="1946">106.  2017-04-19 02:37:55 +0000       56 bytes  specs/functions/prevent_implicit_returns.txt</tspan>
-<tspan x="10" y="1962">107.  2017-04-19 02:37:55 +0000      393 bytes  specs/functions/return_object.txt</tspan>
-<tspan x="10" y="1978">108.  2017-04-19 02:37:55 +0000       90 bytes  specs/functions/return_statement.txt</tspan>
-<tspan x="10" y="1994">109.  2017-04-19 02:37:55 +0000       72 bytes  specs/functions/undefined_in_function_expression\</tspan>
+<tspan x="10" y="1818"> 98.  2017-04-19 02:38:58 +0000      582 bytes  specs/functions/function_reordering.txt</tspan>
+<tspan x="10" y="1834"> 99.  2017-04-19 02:38:58 +0000      134 bytes  specs/functions/functions_after_var.txt</tspan>
+<tspan x="10" y="1850">100.  2017-04-19 02:38:58 +0000      224 bytes  specs/functions/functions_in_ternaries.txt</tspan>
+<tspan x="10" y="1866">101.  2017-04-19 02:38:58 +0000      107 bytes  specs/functions/multiple_declarations.txt</tspan>
+<tspan x="10" y="1882">102.  2017-04-19 02:38:58 +0000      131 bytes  specs/functions/multiple_expressions.txt</tspan>
+<tspan x="10" y="1898">103.  2017-04-19 02:38:58 +0000      104 bytes  specs/functions/named_function_expressions.txt</tspan>
+<tspan x="10" y="1914">104.  2017-04-19 02:38:58 +0000       97 bytes  specs/functions/nested_declarations.txt</tspan>
+<tspan x="10" y="1930">105.  2017-04-19 02:38:58 +0000      114 bytes  specs/functions/nested_functions_in_object.txt</tspan>
+<tspan x="10" y="1946">106.  2017-04-19 02:38:58 +0000       56 bytes  specs/functions/prevent_implicit_returns.txt</tspan>
+<tspan x="10" y="1962">107.  2017-04-19 02:38:58 +0000      393 bytes  specs/functions/return_object.txt</tspan>
+<tspan x="10" y="1978">108.  2017-04-19 02:38:58 +0000       90 bytes  specs/functions/return_statement.txt</tspan>
+<tspan x="10" y="1994">109.  2017-04-19 02:38:58 +0000       72 bytes  specs/functions/undefined_in_function_expression\</tspan>
 <tspan x="10" y="2010">_parameters.txt</tspan>
-<tspan x="10" y="2026">110.  2017-04-19 02:37:55 +0000      479 bytes  specs/functions/undefined_in_parameters.txt</tspan>
-<tspan x="10" y="2042">111.  2017-04-19 02:37:55 +0000       50 bytes  specs/functions/unpacking_returns.txt</tspan>
-<tspan x="10" y="2058">112.  2017-04-19 02:37:55 +0000      112 bytes  specs/functions/unpacking_returns_in_ifs.txt</tspan>
-<tspan x="10" y="2074">113.  2017-04-19 02:37:55 +0000      162 bytes  specs/functions/unpacking_returns_in_ifs_with_el\</tspan>
+<tspan x="10" y="2026">110.  2017-04-19 02:38:58 +0000      479 bytes  specs/functions/undefined_in_parameters.txt</tspan>
+<tspan x="10" y="2042">111.  2017-04-19 02:38:58 +0000       50 bytes  specs/functions/unpacking_returns.txt</tspan>
+<tspan x="10" y="2058">112.  2017-04-19 02:38:58 +0000      112 bytes  specs/functions/unpacking_returns_in_ifs.txt</tspan>
+<tspan x="10" y="2074">113.  2017-04-19 02:38:58 +0000      162 bytes  specs/functions/unpacking_returns_in_ifs_with_el\</tspan>
 <tspan x="10" y="2090">ses.txt</tspan>
-<tspan x="10" y="2106">114.  2017-04-19 02:37:55 +0000      201 bytes  specs/functions/unpacking_returns_in_nested_ifs.\</tspan>
+<tspan x="10" y="2106">114.  2017-04-19 02:38:58 +0000      201 bytes  specs/functions/unpacking_returns_in_nested_ifs.\</tspan>
 <tspan x="10" y="2122">txt</tspan>
-<tspan x="10" y="2138">115.  2017-04-19 02:37:55 +0000       65 bytes  specs/functions/with_arguments.txt</tspan>
-<tspan x="10" y="2154">116.  2017-04-19 02:37:55 +0000      123 bytes  specs/globals/global_assignment.txt</tspan>
-<tspan x="10" y="2170">117.  2017-04-19 02:37:55 +0000      101 bytes  specs/globals/global_assignment_compat.txt</tspan>
-<tspan x="10" y="2186">118.  2017-04-19 02:37:55 +0000       76 bytes  specs/globals/in_function_params.txt</tspan>
-<tspan x="10" y="2202">119.  2017-04-19 02:37:55 +0000      244 bytes  specs/if/blank_ifs.txt</tspan>
-<tspan x="10" y="2218">120.  2017-04-19 02:37:55 +0000       66 bytes  specs/if/blank_ifs_with_comments.txt</tspan>
-<tspan x="10" y="2234">121.  2017-04-19 02:37:55 +0000      105 bytes  specs/if/else_if.txt</tspan>
-<tspan x="10" y="2250">122.  2017-04-19 02:37:55 +0000       99 bytes  specs/if/escaping_if_functions.txt</tspan>
-<tspan x="10" y="2266">123.  2017-04-19 02:37:55 +0000      219 bytes  specs/if/escaping_if_functions_with_indent.txt</tspan>
-<tspan x="10" y="2282">124.  2017-04-19 02:37:55 +0000       65 bytes  specs/if/if_blocks.txt</tspan>
-<tspan x="10" y="2298">125.  2017-04-19 02:37:55 +0000       32 bytes  specs/if/if_statement.txt</tspan>
-<tspan x="10" y="2314">126.  2017-04-19 02:37:55 +0000       62 bytes  specs/if/if_with_else.txt</tspan>
-<tspan x="10" y="2330">127.  2017-04-19 02:37:55 +0000      162 bytes  specs/if/if_with_else_if_inside_functions.txt</tspan>
-<tspan x="10" y="2346">128.  2017-04-19 02:37:55 +0000      117 bytes  specs/if/if_with_else_inside_functions.txt</tspan>
-<tspan x="10" y="2362">129.  2017-04-19 02:37:55 +0000       65 bytes  specs/if/if_with_nesting.txt</tspan>
-<tspan x="10" y="2378">130.  2017-04-19 02:37:55 +0000      222 bytes  specs/if/multiple_else_ifs.txt</tspan>
-<tspan x="10" y="2394">131.  2017-04-19 02:37:55 +0000      111 bytes  specs/if/non_block_consequents.txt</tspan>
-<tspan x="10" y="2410">132.  2017-04-19 02:37:55 +0000       64 bytes  specs/if/ternary_in_if.txt</tspan>
-<tspan x="10" y="2426">133.  2017-04-19 02:37:55 +0000       77 bytes  specs/if/ternary_in_if_and_binary.txt</tspan>
-<tspan x="10" y="2442">134.  2017-04-19 02:37:55 +0000       54 bytes  specs/iife/iife.txt</tspan>
-<tspan x="10" y="2458">135.  2017-04-19 02:37:55 +0000       60 bytes  specs/iife/iife_as_an_expression.txt</tspan>
-<tspan x="10" y="2474">136.  2017-04-19 02:37:55 +0000       75 bytes  specs/iife/iife_with_arguments.txt</tspan>
-<tspan x="10" y="2490">137.  2017-04-19 02:37:55 +0000       99 bytes  specs/iife/iife_with_multiple_arguments.txt</tspan>
-<tspan x="10" y="2506">138.  2017-04-19 02:37:55 +0000       61 bytes  specs/iife/iife_with_non_matching_arguments.txt</tspan>
-<tspan x="10" y="2522">139.  2017-04-19 02:37:55 +0000       61 bytes  specs/iife/iife_with_non_matching_literal_argume\</tspan>
+<tspan x="10" y="2138">115.  2017-04-19 02:38:58 +0000       65 bytes  specs/functions/with_arguments.txt</tspan>
+<tspan x="10" y="2154">116.  2017-04-19 02:38:58 +0000      123 bytes  specs/globals/global_assignment.txt</tspan>
+<tspan x="10" y="2170">117.  2017-04-19 02:38:58 +0000      101 bytes  specs/globals/global_assignment_compat.txt</tspan>
+<tspan x="10" y="2186">118.  2017-04-19 02:38:58 +0000       76 bytes  specs/globals/in_function_params.txt</tspan>
+<tspan x="10" y="2202">119.  2017-04-19 02:38:58 +0000      244 bytes  specs/if/blank_ifs.txt</tspan>
+<tspan x="10" y="2218">120.  2017-04-19 02:38:58 +0000       66 bytes  specs/if/blank_ifs_with_comments.txt</tspan>
+<tspan x="10" y="2234">121.  2017-04-19 02:38:58 +0000      105 bytes  specs/if/else_if.txt</tspan>
+<tspan x="10" y="2250">122.  2017-04-19 02:38:58 +0000       99 bytes  specs/if/escaping_if_functions.txt</tspan>
+<tspan x="10" y="2266">123.  2017-04-19 02:38:58 +0000      219 bytes  specs/if/escaping_if_functions_with_indent.txt</tspan>
+<tspan x="10" y="2282">124.  2017-04-19 02:38:58 +0000       65 bytes  specs/if/if_blocks.txt</tspan>
+<tspan x="10" y="2298">125.  2017-04-19 02:38:58 +0000       32 bytes  specs/if/if_statement.txt</tspan>
+<tspan x="10" y="2314">126.  2017-04-19 02:38:58 +0000       62 bytes  specs/if/if_with_else.txt</tspan>
+<tspan x="10" y="2330">127.  2017-04-19 02:38:58 +0000      162 bytes  specs/if/if_with_else_if_inside_functions.txt</tspan>
+<tspan x="10" y="2346">128.  2017-04-19 02:38:58 +0000      117 bytes  specs/if/if_with_else_inside_functions.txt</tspan>
+<tspan x="10" y="2362">129.  2017-04-19 02:38:58 +0000       65 bytes  specs/if/if_with_nesting.txt</tspan>
+<tspan x="10" y="2378">130.  2017-04-19 02:38:58 +0000      222 bytes  specs/if/multiple_else_ifs.txt</tspan>
+<tspan x="10" y="2394">131.  2017-04-19 02:38:58 +0000      111 bytes  specs/if/non_block_consequents.txt</tspan>
+<tspan x="10" y="2410">132.  2017-04-19 02:38:58 +0000       64 bytes  specs/if/ternary_in_if.txt</tspan>
+<tspan x="10" y="2426">133.  2017-04-19 02:38:58 +0000       77 bytes  specs/if/ternary_in_if_and_binary.txt</tspan>
+<tspan x="10" y="2442">134.  2017-04-19 02:38:58 +0000       54 bytes  specs/iife/iife.txt</tspan>
+<tspan x="10" y="2458">135.  2017-04-19 02:38:58 +0000       60 bytes  specs/iife/iife_as_an_expression.txt</tspan>
+<tspan x="10" y="2474">136.  2017-04-19 02:38:58 +0000       75 bytes  specs/iife/iife_with_arguments.txt</tspan>
+<tspan x="10" y="2490">137.  2017-04-19 02:38:58 +0000       99 bytes  specs/iife/iife_with_multiple_arguments.txt</tspan>
+<tspan x="10" y="2506">138.  2017-04-19 02:38:58 +0000       61 bytes  specs/iife/iife_with_non_matching_arguments.txt</tspan>
+<tspan x="10" y="2522">139.  2017-04-19 02:38:58 +0000       61 bytes  specs/iife/iife_with_non_matching_literal_argume\</tspan>
 <tspan x="10" y="2538">nts.txt</tspan>
-<tspan x="10" y="2554">140.  2017-04-19 02:37:55 +0000       98 bytes  specs/indent/spaces_4.txt</tspan>
-<tspan x="10" y="2570">141.  2017-04-19 02:37:55 +0000      102 bytes  specs/indent/spaces_8.txt</tspan>
-<tspan x="10" y="2586">142.  2017-04-19 02:37:55 +0000       99 bytes  specs/indent/tab.txt</tspan>
-<tspan x="10" y="2602">143.  2017-04-19 02:37:55 +0000      117 bytes  specs/legacy/anon_invocation.txt</tspan>
-<tspan x="10" y="2618">144.  2017-04-19 02:37:55 +0000      140 bytes  specs/legacy/array_literals.txt</tspan>
-<tspan x="10" y="2634">145.  2017-04-19 02:37:55 +0000      162 bytes  specs/legacy/assign.txt</tspan>
-<tspan x="10" y="2650">146.  2017-04-19 02:37:55 +0000      165 bytes  specs/legacy/bitwise_shift.txt</tspan>
-<tspan x="10" y="2666">147.  2017-04-19 02:37:55 +0000       68 bytes  specs/legacy/blank_lines.txt</tspan>
-<tspan x="10" y="2682">148.  2017-04-19 02:37:55 +0000       62 bytes  specs/legacy/block_comments.txt</tspan>
-<tspan x="10" y="2698">149.  2017-04-19 02:37:55 +0000      174 bytes  specs/legacy/call_statement.txt</tspan>
-<tspan x="10" y="2714">150.  2017-04-19 02:37:55 +0000       44 bytes  specs/legacy/crlf.txt</tspan>
-<tspan x="10" y="2730">151.  2017-04-19 02:37:55 +0000       29 bytes  specs/legacy/debugger.txt</tspan>
-<tspan x="10" y="2746">152.  2017-04-19 02:37:55 +0000       35 bytes  specs/legacy/delete.txt</tspan>
-<tspan x="10" y="2762">153.  2017-04-19 02:37:55 +0000      128 bytes  specs/legacy/do.txt</tspan>
-<tspan x="10" y="2778">154.  2017-04-19 02:37:55 +0000      224 bytes  specs/legacy/dont_unreserve_property_accessors.t\</tspan>
+<tspan x="10" y="2554">140.  2017-04-19 02:38:58 +0000       98 bytes  specs/indent/spaces_4.txt</tspan>
+<tspan x="10" y="2570">141.  2017-04-19 02:38:58 +0000      102 bytes  specs/indent/spaces_8.txt</tspan>
+<tspan x="10" y="2586">142.  2017-04-19 02:38:58 +0000       99 bytes  specs/indent/tab.txt</tspan>
+<tspan x="10" y="2602">143.  2017-04-19 02:38:58 +0000      117 bytes  specs/legacy/anon_invocation.txt</tspan>
+<tspan x="10" y="2618">144.  2017-04-19 02:38:58 +0000      140 bytes  specs/legacy/array_literals.txt</tspan>
+<tspan x="10" y="2634">145.  2017-04-19 02:38:58 +0000      162 bytes  specs/legacy/assign.txt</tspan>
+<tspan x="10" y="2650">146.  2017-04-19 02:38:58 +0000      165 bytes  specs/legacy/bitwise_shift.txt</tspan>
+<tspan x="10" y="2666">147.  2017-04-19 02:38:58 +0000       68 bytes  specs/legacy/blank_lines.txt</tspan>
+<tspan x="10" y="2682">148.  2017-04-19 02:38:58 +0000       62 bytes  specs/legacy/block_comments.txt</tspan>
+<tspan x="10" y="2698">149.  2017-04-19 02:38:58 +0000      174 bytes  specs/legacy/call_statement.txt</tspan>
+<tspan x="10" y="2714">150.  2017-04-19 02:38:58 +0000       44 bytes  specs/legacy/crlf.txt</tspan>
+<tspan x="10" y="2730">151.  2017-04-19 02:38:58 +0000       29 bytes  specs/legacy/debugger.txt</tspan>
+<tspan x="10" y="2746">152.  2017-04-19 02:38:58 +0000       35 bytes  specs/legacy/delete.txt</tspan>
+<tspan x="10" y="2762">153.  2017-04-19 02:38:58 +0000      128 bytes  specs/legacy/do.txt</tspan>
+<tspan x="10" y="2778">154.  2017-04-19 02:38:58 +0000      224 bytes  specs/legacy/dont_unreserve_property_accessors.t\</tspan>
 <tspan x="10" y="2794">xt</tspan>
-<tspan x="10" y="2810">155.  2017-04-19 02:37:55 +0000       41 bytes  specs/legacy/empty_function.txt</tspan>
-<tspan x="10" y="2826">156.  2017-04-19 02:37:55 +0000      147 bytes  specs/legacy/empty_function_bodies.txt</tspan>
-<tspan x="10" y="2842">157.  2017-04-19 02:37:55 +0000       20 bytes  specs/legacy/empty_semicolon.txt</tspan>
-<tspan x="10" y="2858">158.  2017-04-19 02:37:55 +0000      103 bytes  specs/legacy/equal_regex.txt</tspan>
-<tspan x="10" y="2874">159.  2017-04-19 02:37:55 +0000      112 bytes  specs/legacy/floating_point_numbers.txt</tspan>
-<tspan x="10" y="2890">160.  2017-04-19 02:37:55 +0000      245 bytes  specs/legacy/for.txt</tspan>
-<tspan x="10" y="2906">161.  2017-04-19 02:37:55 +0000      215 bytes  specs/legacy/for_in.txt</tspan>
-<tspan x="10" y="2922">162.  2017-04-19 02:37:55 +0000      179 bytes  specs/legacy/function_order.txt</tspan>
-<tspan x="10" y="2938">163.  2017-04-19 02:37:55 +0000       95 bytes  specs/legacy/function_property.txt</tspan>
-<tspan x="10" y="2954">164.  2017-04-19 02:37:55 +0000       33 bytes  specs/legacy/function_with_keyword.txt</tspan>
-<tspan x="10" y="2970">165.  2017-04-19 02:37:55 +0000       76 bytes  specs/legacy/if_in.txt</tspan>
-<tspan x="10" y="2986">166.  2017-04-19 02:37:55 +0000       76 bytes  specs/legacy/increment_decrement.txt</tspan>
-<tspan x="10" y="3002">167.  2017-04-19 02:37:55 +0000       27 bytes  specs/legacy/index.txt</tspan>
-<tspan x="10" y="3018">168.  2017-04-19 02:37:55 +0000       31 bytes  specs/legacy/numbers.txt</tspan>
-<tspan x="10" y="3034">169.  2017-04-19 02:37:55 +0000       38 bytes  specs/legacy/or.txt</tspan>
-<tspan x="10" y="3050">170.  2017-04-19 02:37:55 +0000       52 bytes  specs/legacy/parenthesized_new.txt</tspan>
-<tspan x="10" y="3066">171.  2017-04-19 02:37:55 +0000       73 bytes  specs/legacy/return_function.txt</tspan>
-<tspan x="10" y="3082">172.  2017-04-19 02:37:55 +0000       42 bytes  specs/legacy/simple_addition.txt</tspan>
-<tspan x="10" y="3098">173.  2017-04-19 02:37:55 +0000       86 bytes  specs/legacy/single_line_else.txt</tspan>
-<tspan x="10" y="3114">174.  2017-04-19 02:37:55 +0000       47 bytes  specs/legacy/single_return.txt</tspan>
-<tspan x="10" y="3130">175.  2017-04-19 02:37:55 +0000      217 bytes  specs/legacy/switch.txt</tspan>
-<tspan x="10" y="3146">176.  2017-04-19 02:37:55 +0000       35 bytes  specs/legacy/ternary.txt</tspan>
-<tspan x="10" y="3162">177.  2017-04-19 02:37:55 +0000       57 bytes  specs/legacy/this_attribute.txt</tspan>
-<tspan x="10" y="3178">178.  2017-04-19 02:37:55 +0000       53 bytes  specs/legacy/this_keyword.txt</tspan>
-<tspan x="10" y="3194">179.  2017-04-19 02:37:55 +0000       82 bytes  specs/legacy/throw.txt</tspan>
-<tspan x="10" y="3210">180.  2017-04-19 02:37:55 +0000      102 bytes  specs/legacy/unary.txt</tspan>
-<tspan x="10" y="3226">181.  2017-04-19 02:37:55 +0000       93 bytes  specs/legacy/var.txt</tspan>
-<tspan x="10" y="3242">182.  2017-04-19 02:37:55 +0000       51 bytes  specs/legacy_pending/destructuring_assignment.tx\</tspan>
+<tspan x="10" y="2810">155.  2017-04-19 02:38:58 +0000       41 bytes  specs/legacy/empty_function.txt</tspan>
+<tspan x="10" y="2826">156.  2017-04-19 02:38:58 +0000      147 bytes  specs/legacy/empty_function_bodies.txt</tspan>
+<tspan x="10" y="2842">157.  2017-04-19 02:38:58 +0000       20 bytes  specs/legacy/empty_semicolon.txt</tspan>
+<tspan x="10" y="2858">158.  2017-04-19 02:38:58 +0000      103 bytes  specs/legacy/equal_regex.txt</tspan>
+<tspan x="10" y="2874">159.  2017-04-19 02:38:58 +0000      112 bytes  specs/legacy/floating_point_numbers.txt</tspan>
+<tspan x="10" y="2890">160.  2017-04-19 02:38:58 +0000      245 bytes  specs/legacy/for.txt</tspan>
+<tspan x="10" y="2906">161.  2017-04-19 02:38:58 +0000      215 bytes  specs/legacy/for_in.txt</tspan>
+<tspan x="10" y="2922">162.  2017-04-19 02:38:58 +0000      179 bytes  specs/legacy/function_order.txt</tspan>
+<tspan x="10" y="2938">163.  2017-04-19 02:38:58 +0000       95 bytes  specs/legacy/function_property.txt</tspan>
+<tspan x="10" y="2954">164.  2017-04-19 02:38:58 +0000       33 bytes  specs/legacy/function_with_keyword.txt</tspan>
+<tspan x="10" y="2970">165.  2017-04-19 02:38:58 +0000       76 bytes  specs/legacy/if_in.txt</tspan>
+<tspan x="10" y="2986">166.  2017-04-19 02:38:58 +0000       76 bytes  specs/legacy/increment_decrement.txt</tspan>
+<tspan x="10" y="3002">167.  2017-04-19 02:38:58 +0000       27 bytes  specs/legacy/index.txt</tspan>
+<tspan x="10" y="3018">168.  2017-04-19 02:38:58 +0000       31 bytes  specs/legacy/numbers.txt</tspan>
+<tspan x="10" y="3034">169.  2017-04-19 02:38:58 +0000       38 bytes  specs/legacy/or.txt</tspan>
+<tspan x="10" y="3050">170.  2017-04-19 02:38:58 +0000       52 bytes  specs/legacy/parenthesized_new.txt</tspan>
+<tspan x="10" y="3066">171.  2017-04-19 02:38:58 +0000       73 bytes  specs/legacy/return_function.txt</tspan>
+<tspan x="10" y="3082">172.  2017-04-19 02:38:58 +0000       42 bytes  specs/legacy/simple_addition.txt</tspan>
+<tspan x="10" y="3098">173.  2017-04-19 02:38:58 +0000       86 bytes  specs/legacy/single_line_else.txt</tspan>
+<tspan x="10" y="3114">174.  2017-04-19 02:38:58 +0000       47 bytes  specs/legacy/single_return.txt</tspan>
+<tspan x="10" y="3130">175.  2017-04-19 02:38:58 +0000      217 bytes  specs/legacy/switch.txt</tspan>
+<tspan x="10" y="3146">176.  2017-04-19 02:38:58 +0000       35 bytes  specs/legacy/ternary.txt</tspan>
+<tspan x="10" y="3162">177.  2017-04-19 02:38:58 +0000       57 bytes  specs/legacy/this_attribute.txt</tspan>
+<tspan x="10" y="3178">178.  2017-04-19 02:38:58 +0000       53 bytes  specs/legacy/this_keyword.txt</tspan>
+<tspan x="10" y="3194">179.  2017-04-19 02:38:58 +0000       82 bytes  specs/legacy/throw.txt</tspan>
+<tspan x="10" y="3210">180.  2017-04-19 02:38:58 +0000      102 bytes  specs/legacy/unary.txt</tspan>
+<tspan x="10" y="3226">181.  2017-04-19 02:38:58 +0000       93 bytes  specs/legacy/var.txt</tspan>
+<tspan x="10" y="3242">182.  2017-04-19 02:38:58 +0000       51 bytes  specs/legacy_pending/destructuring_assignment.tx\</tspan>
 <tspan x="10" y="3258">t</tspan>
-<tspan x="10" y="3274">183.  2017-04-19 02:37:55 +0000      309 bytes  specs/legacy_pending/destructuring_in_functions.\</tspan>
+<tspan x="10" y="3274">183.  2017-04-19 02:38:58 +0000      309 bytes  specs/legacy_pending/destructuring_in_functions.\</tspan>
 <tspan x="10" y="3290">txt</tspan>
-<tspan x="10" y="3306">184.  2017-04-19 02:37:55 +0000      530 bytes  specs/legacy_pending/escape.txt</tspan>
-<tspan x="10" y="3322">185.  2017-04-19 02:37:55 +0000     1373 bytes  specs/legacy_pending/existence.txt</tspan>
-<tspan x="10" y="3338">186.  2017-04-19 02:37:55 +0000      431 bytes  specs/legacy_pending/for_continue.txt</tspan>
-<tspan x="10" y="3354">187.  2017-04-19 02:37:55 +0000      398 bytes  specs/legacy_pending/function_chaining.txt</tspan>
-<tspan x="10" y="3370">188.  2017-04-19 02:37:55 +0000      155 bytes  specs/legacy_pending/hash.txt</tspan>
-<tspan x="10" y="3386">189.  2017-04-19 02:37:55 +0000      222 bytes  specs/legacy_pending/if_return.txt</tspan>
-<tspan x="10" y="3402">190.  2017-04-19 02:37:55 +0000      477 bytes  specs/legacy_pending/instanceof.txt</tspan>
-<tspan x="10" y="3418">191.  2017-04-19 02:37:55 +0000       75 bytes  specs/legacy_pending/invocation_object_literal_f\</tspan>
+<tspan x="10" y="3306">184.  2017-04-19 02:38:58 +0000      530 bytes  specs/legacy_pending/escape.txt</tspan>
+<tspan x="10" y="3322">185.  2017-04-19 02:38:58 +0000     1373 bytes  specs/legacy_pending/existence.txt</tspan>
+<tspan x="10" y="3338">186.  2017-04-19 02:38:58 +0000      431 bytes  specs/legacy_pending/for_continue.txt</tspan>
+<tspan x="10" y="3354">187.  2017-04-19 02:38:58 +0000      398 bytes  specs/legacy_pending/function_chaining.txt</tspan>
+<tspan x="10" y="3370">188.  2017-04-19 02:38:58 +0000      155 bytes  specs/legacy_pending/hash.txt</tspan>
+<tspan x="10" y="3386">189.  2017-04-19 02:38:58 +0000      222 bytes  specs/legacy_pending/if_return.txt</tspan>
+<tspan x="10" y="3402">190.  2017-04-19 02:38:58 +0000      477 bytes  specs/legacy_pending/instanceof.txt</tspan>
+<tspan x="10" y="3418">191.  2017-04-19 02:38:58 +0000       75 bytes  specs/legacy_pending/invocation_object_literal_f\</tspan>
 <tspan x="10" y="3434">irst.txt</tspan>
-<tspan x="10" y="3450">192.  2017-04-19 02:37:55 +0000      142 bytes  specs/legacy_pending/jquery_wrapper.txt</tspan>
-<tspan x="10" y="3466">193.  2017-04-19 02:37:55 +0000      207 bytes  specs/legacy_pending/loop.txt</tspan>
-<tspan x="10" y="3482">194.  2017-04-19 02:37:55 +0000      498 bytes  specs/legacy_pending/no_return.txt</tspan>
-<tspan x="10" y="3498">195.  2017-04-19 02:37:55 +0000       18 bytes  specs/legacy_pending/not.txt</tspan>
-<tspan x="10" y="3514">196.  2017-04-19 02:37:55 +0000       66 bytes  specs/legacy_pending/not_not.txt</tspan>
-<tspan x="10" y="3530">197.  2017-04-19 02:37:55 +0000      101 bytes  specs/legacy_pending/object_literal_at_index.txt</tspan>
-<tspan x="10" y="3546">198.  2017-04-19 02:37:55 +0000       68 bytes  specs/legacy_pending/object_literal_return.txt</tspan>
-<tspan x="10" y="3562">199.  2017-04-19 02:37:55 +0000       67 bytes  specs/legacy_pending/object_literal_with_functio\</tspan>
+<tspan x="10" y="3450">192.  2017-04-19 02:38:58 +0000      142 bytes  specs/legacy_pending/jquery_wrapper.txt</tspan>
+<tspan x="10" y="3466">193.  2017-04-19 02:38:58 +0000      207 bytes  specs/legacy_pending/loop.txt</tspan>
+<tspan x="10" y="3482">194.  2017-04-19 02:38:58 +0000      498 bytes  specs/legacy_pending/no_return.txt</tspan>
+<tspan x="10" y="3498">195.  2017-04-19 02:38:58 +0000       18 bytes  specs/legacy_pending/not.txt</tspan>
+<tspan x="10" y="3514">196.  2017-04-19 02:38:58 +0000       66 bytes  specs/legacy_pending/not_not.txt</tspan>
+<tspan x="10" y="3530">197.  2017-04-19 02:38:58 +0000      101 bytes  specs/legacy_pending/object_literal_at_index.txt</tspan>
+<tspan x="10" y="3546">198.  2017-04-19 02:38:58 +0000       68 bytes  specs/legacy_pending/object_literal_return.txt</tspan>
+<tspan x="10" y="3562">199.  2017-04-19 02:38:58 +0000       67 bytes  specs/legacy_pending/object_literal_with_functio\</tspan>
 <tspan x="10" y="3578">n.txt</tspan>
-<tspan x="10" y="3594">200.  2017-04-19 02:37:55 +0000      168 bytes  specs/legacy_pending/object_literals.txt</tspan>
-<tspan x="10" y="3610">201.  2017-04-19 02:37:55 +0000      123 bytes  specs/legacy_pending/percent_d.txt</tspan>
-<tspan x="10" y="3626">202.  2017-04-19 02:37:55 +0000     1401 bytes  specs/legacy_pending/pretty_arrays.txt</tspan>
-<tspan x="10" y="3642">203.  2017-04-19 02:37:55 +0000      162 bytes  specs/legacy_pending/prototype.txt</tspan>
-<tspan x="10" y="3658">204.  2017-04-19 02:37:55 +0000      120 bytes  specs/legacy_pending/reserve.txt</tspan>
-<tspan x="10" y="3674">205.  2017-04-19 02:37:55 +0000      125 bytes  specs/legacy_pending/return_in_if.txt</tspan>
-<tspan x="10" y="3690">206.  2017-04-19 02:37:55 +0000      374 bytes  specs/legacy_pending/return_object.txt</tspan>
-<tspan x="10" y="3706">207.  2017-04-19 02:37:55 +0000      572 bytes  specs/legacy_pending/return_object_parenthesize.\</tspan>
+<tspan x="10" y="3594">200.  2017-04-19 02:38:58 +0000      168 bytes  specs/legacy_pending/object_literals.txt</tspan>
+<tspan x="10" y="3610">201.  2017-04-19 02:38:58 +0000      123 bytes  specs/legacy_pending/percent_d.txt</tspan>
+<tspan x="10" y="3626">202.  2017-04-19 02:38:58 +0000     1401 bytes  specs/legacy_pending/pretty_arrays.txt</tspan>
+<tspan x="10" y="3642">203.  2017-04-19 02:38:58 +0000      162 bytes  specs/legacy_pending/prototype.txt</tspan>
+<tspan x="10" y="3658">204.  2017-04-19 02:38:58 +0000      120 bytes  specs/legacy_pending/reserve.txt</tspan>
+<tspan x="10" y="3674">205.  2017-04-19 02:38:58 +0000      125 bytes  specs/legacy_pending/return_in_if.txt</tspan>
+<tspan x="10" y="3690">206.  2017-04-19 02:38:58 +0000      374 bytes  specs/legacy_pending/return_object.txt</tspan>
+<tspan x="10" y="3706">207.  2017-04-19 02:38:58 +0000      572 bytes  specs/legacy_pending/return_object_parenthesize.\</tspan>
 <tspan x="10" y="3722">txt</tspan>
-<tspan x="10" y="3738">208.  2017-04-19 02:37:55 +0000      572 bytes  specs/legacy_pending/returns.txt</tspan>
-<tspan x="10" y="3754">209.  2017-04-19 02:37:55 +0000      225 bytes  specs/legacy_pending/settimeout.txt</tspan>
-<tspan x="10" y="3770">210.  2017-04-19 02:37:55 +0000       30 bytes  specs/legacy_pending/single_line_if.txt</tspan>
-<tspan x="10" y="3786">211.  2017-04-19 02:37:55 +0000      252 bytes  specs/legacy_pending/single_line_while.txt</tspan>
-<tspan x="10" y="3802">212.  2017-04-19 02:37:55 +0000      500 bytes  specs/legacy_pending/single_quotes.txt</tspan>
-<tspan x="10" y="3818">213.  2017-04-19 02:37:55 +0000      207 bytes  specs/legacy_pending/switch_gt_two.txt</tspan>
-<tspan x="10" y="3834">214.  2017-04-19 02:37:55 +0000      231 bytes  specs/legacy_pending/switch_indent_tab.txt</tspan>
-<tspan x="10" y="3850">215.  2017-04-19 02:37:55 +0000      250 bytes  specs/legacy_pending/unless_bug.txt</tspan>
-<tspan x="10" y="3866">216.  2017-04-19 02:37:55 +0000       52 bytes  specs/legacy_pending/while.txt</tspan>
-<tspan x="10" y="3882">217.  2017-04-19 02:37:55 +0000      100 bytes  specs/loops/continue_statement.txt</tspan>
-<tspan x="10" y="3898">218.  2017-04-19 02:37:55 +0000       66 bytes  specs/loops/do_while.txt</tspan>
-<tspan x="10" y="3914">219.  2017-04-19 02:37:55 +0000      170 bytes  specs/loops/do_while_with_other_statements.txt</tspan>
-<tspan x="10" y="3930">220.  2017-04-19 02:37:55 +0000      204 bytes  specs/loops/empty_while.txt</tspan>
-<tspan x="10" y="3946">221.  2017-04-19 02:37:55 +0000      105 bytes  specs/loops/for_in_with_if.txt</tspan>
-<tspan x="10" y="3962">222.  2017-04-19 02:37:55 +0000       55 bytes  specs/loops/for_in_with_var.txt</tspan>
-<tspan x="10" y="3978">223.  2017-04-19 02:37:55 +0000      324 bytes  specs/loops/for_with_continue.txt</tspan>
-<tspan x="10" y="3994">224.  2017-04-19 02:37:55 +0000      180 bytes  specs/loops/for_with_continue_with_switch.txt</tspan>
-<tspan x="10" y="4010">225.  2017-04-19 02:37:55 +0000      145 bytes  specs/loops/for_with_continue_without_init.txt</tspan>
-<tspan x="10" y="4026">226.  2017-04-19 02:37:55 +0000      103 bytes  specs/loops/for_with_if.txt</tspan>
-<tspan x="10" y="4042">227.  2017-04-19 02:37:55 +0000       41 bytes  specs/loops/for_with_no_arguments.txt</tspan>
-<tspan x="10" y="4058">228.  2017-04-19 02:37:55 +0000       36 bytes  specs/loops/for_with_no_body.txt</tspan>
-<tspan x="10" y="4074">229.  2017-04-19 02:37:55 +0000       50 bytes  specs/loops/for_with_no_init.txt</tspan>
-<tspan x="10" y="4090">230.  2017-04-19 02:37:55 +0000       49 bytes  specs/loops/for_with_no_test.txt</tspan>
-<tspan x="10" y="4106">231.  2017-04-19 02:37:55 +0000       48 bytes  specs/loops/for_with_no_update.txt</tspan>
-<tspan x="10" y="4122">232.  2017-04-19 02:37:55 +0000       45 bytes  specs/loops/forever_loop.txt</tspan>
-<tspan x="10" y="4138">233.  2017-04-19 02:37:55 +0000       79 bytes  specs/loops/indented_for.txt</tspan>
-<tspan x="10" y="4154">234.  2017-04-19 02:37:55 +0000      144 bytes  specs/loops/simple_for.txt</tspan>
-<tspan x="10" y="4170">235.  2017-04-19 02:37:55 +0000       59 bytes  specs/loops/while.txt</tspan>
-<tspan x="10" y="4186">236.  2017-04-19 02:37:55 +0000       94 bytes  specs/loops/while_with_break.txt</tspan>
-<tspan x="10" y="4202">237.  2017-04-19 02:37:55 +0000       73 bytes  specs/loops/while_with_no_body.txt</tspan>
-<tspan x="10" y="4218">238.  2017-04-19 02:37:55 +0000       20 bytes  specs/members/identifier_in_brackets.txt</tspan>
-<tspan x="10" y="4234">239.  2017-04-19 02:37:55 +0000       18 bytes  specs/members/identifiers.txt</tspan>
-<tspan x="10" y="4250">240.  2017-04-19 02:37:55 +0000       65 bytes  specs/members/prototype.txt</tspan>
-<tspan x="10" y="4266">241.  2017-04-19 02:37:55 +0000       41 bytes  specs/members/this_prototype.txt</tspan>
-<tspan x="10" y="4282">242.  2017-04-19 02:37:55 +0000       34 bytes  specs/new/new_operator.txt</tspan>
-<tspan x="10" y="4298">243.  2017-04-19 02:37:55 +0000       46 bytes  specs/new/new_operator_with_arguments.txt</tspan>
-<tspan x="10" y="4314">244.  2017-04-19 02:37:55 +0000       70 bytes  specs/new/new_with_complex_callee.txt</tspan>
-<tspan x="10" y="4330">245.  2017-04-19 02:37:55 +0000      118 bytes  specs/new/new_with_function_expression.txt</tspan>
-<tspan x="10" y="4346">246.  2017-04-19 02:37:55 +0000      120 bytes  specs/new/new_with_function_expression_and_strin\</tspan>
+<tspan x="10" y="3738">208.  2017-04-19 02:38:58 +0000      572 bytes  specs/legacy_pending/returns.txt</tspan>
+<tspan x="10" y="3754">209.  2017-04-19 02:38:58 +0000      225 bytes  specs/legacy_pending/settimeout.txt</tspan>
+<tspan x="10" y="3770">210.  2017-04-19 02:38:58 +0000       30 bytes  specs/legacy_pending/single_line_if.txt</tspan>
+<tspan x="10" y="3786">211.  2017-04-19 02:38:58 +0000      252 bytes  specs/legacy_pending/single_line_while.txt</tspan>
+<tspan x="10" y="3802">212.  2017-04-19 02:38:58 +0000      500 bytes  specs/legacy_pending/single_quotes.txt</tspan>
+<tspan x="10" y="3818">213.  2017-04-19 02:38:58 +0000      207 bytes  specs/legacy_pending/switch_gt_two.txt</tspan>
+<tspan x="10" y="3834">214.  2017-04-19 02:38:58 +0000      231 bytes  specs/legacy_pending/switch_indent_tab.txt</tspan>
+<tspan x="10" y="3850">215.  2017-04-19 02:38:58 +0000      250 bytes  specs/legacy_pending/unless_bug.txt</tspan>
+<tspan x="10" y="3866">216.  2017-04-19 02:38:58 +0000       52 bytes  specs/legacy_pending/while.txt</tspan>
+<tspan x="10" y="3882">217.  2017-04-19 02:38:58 +0000      100 bytes  specs/loops/continue_statement.txt</tspan>
+<tspan x="10" y="3898">218.  2017-04-19 02:38:58 +0000       66 bytes  specs/loops/do_while.txt</tspan>
+<tspan x="10" y="3914">219.  2017-04-19 02:38:58 +0000      170 bytes  specs/loops/do_while_with_other_statements.txt</tspan>
+<tspan x="10" y="3930">220.  2017-04-19 02:38:58 +0000      204 bytes  specs/loops/empty_while.txt</tspan>
+<tspan x="10" y="3946">221.  2017-04-19 02:38:58 +0000      105 bytes  specs/loops/for_in_with_if.txt</tspan>
+<tspan x="10" y="3962">222.  2017-04-19 02:38:58 +0000       55 bytes  specs/loops/for_in_with_var.txt</tspan>
+<tspan x="10" y="3978">223.  2017-04-19 02:38:58 +0000      324 bytes  specs/loops/for_with_continue.txt</tspan>
+<tspan x="10" y="3994">224.  2017-04-19 02:38:58 +0000      180 bytes  specs/loops/for_with_continue_with_switch.txt</tspan>
+<tspan x="10" y="4010">225.  2017-04-19 02:38:58 +0000      145 bytes  specs/loops/for_with_continue_without_init.txt</tspan>
+<tspan x="10" y="4026">226.  2017-04-19 02:38:58 +0000      103 bytes  specs/loops/for_with_if.txt</tspan>
+<tspan x="10" y="4042">227.  2017-04-19 02:38:58 +0000       41 bytes  specs/loops/for_with_no_arguments.txt</tspan>
+<tspan x="10" y="4058">228.  2017-04-19 02:38:58 +0000       36 bytes  specs/loops/for_with_no_body.txt</tspan>
+<tspan x="10" y="4074">229.  2017-04-19 02:38:58 +0000       50 bytes  specs/loops/for_with_no_init.txt</tspan>
+<tspan x="10" y="4090">230.  2017-04-19 02:38:58 +0000       49 bytes  specs/loops/for_with_no_test.txt</tspan>
+<tspan x="10" y="4106">231.  2017-04-19 02:38:58 +0000       48 bytes  specs/loops/for_with_no_update.txt</tspan>
+<tspan x="10" y="4122">232.  2017-04-19 02:38:58 +0000       45 bytes  specs/loops/forever_loop.txt</tspan>
+<tspan x="10" y="4138">233.  2017-04-19 02:38:58 +0000       79 bytes  specs/loops/indented_for.txt</tspan>
+<tspan x="10" y="4154">234.  2017-04-19 02:38:58 +0000      144 bytes  specs/loops/simple_for.txt</tspan>
+<tspan x="10" y="4170">235.  2017-04-19 02:38:58 +0000       59 bytes  specs/loops/while.txt</tspan>
+<tspan x="10" y="4186">236.  2017-04-19 02:38:58 +0000       94 bytes  specs/loops/while_with_break.txt</tspan>
+<tspan x="10" y="4202">237.  2017-04-19 02:38:58 +0000       73 bytes  specs/loops/while_with_no_body.txt</tspan>
+<tspan x="10" y="4218">238.  2017-04-19 02:38:58 +0000       20 bytes  specs/members/identifier_in_brackets.txt</tspan>
+<tspan x="10" y="4234">239.  2017-04-19 02:38:58 +0000       18 bytes  specs/members/identifiers.txt</tspan>
+<tspan x="10" y="4250">240.  2017-04-19 02:38:58 +0000       65 bytes  specs/members/prototype.txt</tspan>
+<tspan x="10" y="4266">241.  2017-04-19 02:38:58 +0000       41 bytes  specs/members/this_prototype.txt</tspan>
+<tspan x="10" y="4282">242.  2017-04-19 02:38:58 +0000       34 bytes  specs/new/new_operator.txt</tspan>
+<tspan x="10" y="4298">243.  2017-04-19 02:38:58 +0000       46 bytes  specs/new/new_operator_with_arguments.txt</tspan>
+<tspan x="10" y="4314">244.  2017-04-19 02:38:58 +0000       70 bytes  specs/new/new_with_complex_callee.txt</tspan>
+<tspan x="10" y="4330">245.  2017-04-19 02:38:58 +0000      118 bytes  specs/new/new_with_function_expression.txt</tspan>
+<tspan x="10" y="4346">246.  2017-04-19 02:38:58 +0000      120 bytes  specs/new/new_with_function_expression_and_strin\</tspan>
 <tspan x="10" y="4362">g.txt</tspan>
-<tspan x="10" y="4378">247.  2017-04-19 02:37:55 +0000      124 bytes  specs/objects/arrray_of_objects.txt</tspan>
-<tspan x="10" y="4394">248.  2017-04-19 02:37:55 +0000       50 bytes  specs/objects/call_with_object.txt</tspan>
-<tspan x="10" y="4410">249.  2017-04-19 02:37:55 +0000       74 bytes  specs/objects/multiple_object_expressions.txt</tspan>
-<tspan x="10" y="4426">250.  2017-04-19 02:37:55 +0000       79 bytes  specs/objects/multiple_properties.txt</tspan>
-<tspan x="10" y="4442">251.  2017-04-19 02:37:55 +0000      108 bytes  specs/objects/nested_objects.txt</tspan>
-<tspan x="10" y="4458">252.  2017-04-19 02:37:55 +0000       91 bytes  specs/objects/nesting_into_a_single_line.txt</tspan>
-<tspan x="10" y="4474">253.  2017-04-19 02:37:55 +0000      159 bytes  specs/objects/object_with_arrays.txt</tspan>
-<tspan x="10" y="4490">254.  2017-04-19 02:37:55 +0000       36 bytes  specs/objects/simple_object.txt</tspan>
-<tspan x="10" y="4506">255.  2017-04-19 02:37:55 +0000       37 bytes  specs/objects/single_object_expression.txt</tspan>
-<tspan x="10" y="4522">256.  2017-04-19 02:37:55 +0000      203 bytes  specs/objects/singleton_with_methods.txt</tspan>
-<tspan x="10" y="4538">257.  2017-04-19 02:37:55 +0000      280 bytes  specs/objects/unusual_identifiers.txt</tspan>
-<tspan x="10" y="4554">258.  2017-04-19 02:37:55 +0000       67 bytes  specs/pending/duplicate_functions.txt</tspan>
-<tspan x="10" y="4570">259.  2017-04-19 02:37:55 +0000      177 bytes  specs/pending/exports.txt</tspan>
-<tspan x="10" y="4586">260.  2017-04-19 02:37:55 +0000      670 bytes  specs/pending/for_in_without_var.txt</tspan>
-<tspan x="10" y="4602">261.  2017-04-19 02:37:55 +0000      243 bytes  specs/pending/global.txt</tspan>
-<tspan x="10" y="4618">262.  2017-04-19 02:37:55 +0000       73 bytes  specs/pending/object_literal_return.txt</tspan>
-<tspan x="10" y="4634">263.  2017-04-19 02:37:55 +0000       62 bytes  specs/pending/shadowing_of_function_names.txt</tspan>
-<tspan x="10" y="4650">264.  2017-04-19 02:37:55 +0000       90 bytes  specs/pending/simple_for_loop.txt</tspan>
-<tspan x="10" y="4666">265.  2017-04-19 02:37:55 +0000       90 bytes  specs/pending/simple_for_loop_with_lte.txt</tspan>
-<tspan x="10" y="4682">266.  2017-04-19 02:37:55 +0000       95 bytes  specs/pending/special_characters.txt</tspan>
-<tspan x="10" y="4698">267.  2017-04-19 02:37:55 +0000       34 bytes  specs/precedence/addition_and_multiplication.txt</tspan>
-<tspan x="10" y="4714">268.  2017-04-19 02:37:55 +0000       38 bytes  specs/precedence/binary_expressions.txt</tspan>
-<tspan x="10" y="4730">269.  2017-04-19 02:37:55 +0000       46 bytes  specs/precedence/binary_expressions_with_parens.\</tspan>
+<tspan x="10" y="4378">247.  2017-04-19 02:38:58 +0000      124 bytes  specs/objects/arrray_of_objects.txt</tspan>
+<tspan x="10" y="4394">248.  2017-04-19 02:38:58 +0000       50 bytes  specs/objects/call_with_object.txt</tspan>
+<tspan x="10" y="4410">249.  2017-04-19 02:38:58 +0000       74 bytes  specs/objects/multiple_object_expressions.txt</tspan>
+<tspan x="10" y="4426">250.  2017-04-19 02:38:58 +0000       79 bytes  specs/objects/multiple_properties.txt</tspan>
+<tspan x="10" y="4442">251.  2017-04-19 02:38:58 +0000      108 bytes  specs/objects/nested_objects.txt</tspan>
+<tspan x="10" y="4458">252.  2017-04-19 02:38:58 +0000       91 bytes  specs/objects/nesting_into_a_single_line.txt</tspan>
+<tspan x="10" y="4474">253.  2017-04-19 02:38:58 +0000      159 bytes  specs/objects/object_with_arrays.txt</tspan>
+<tspan x="10" y="4490">254.  2017-04-19 02:38:58 +0000       36 bytes  specs/objects/simple_object.txt</tspan>
+<tspan x="10" y="4506">255.  2017-04-19 02:38:58 +0000       37 bytes  specs/objects/single_object_expression.txt</tspan>
+<tspan x="10" y="4522">256.  2017-04-19 02:38:58 +0000      203 bytes  specs/objects/singleton_with_methods.txt</tspan>
+<tspan x="10" y="4538">257.  2017-04-19 02:38:58 +0000      280 bytes  specs/objects/unusual_identifiers.txt</tspan>
+<tspan x="10" y="4554">258.  2017-04-19 02:38:58 +0000       67 bytes  specs/pending/duplicate_functions.txt</tspan>
+<tspan x="10" y="4570">259.  2017-04-19 02:38:58 +0000      177 bytes  specs/pending/exports.txt</tspan>
+<tspan x="10" y="4586">260.  2017-04-19 02:38:58 +0000      670 bytes  specs/pending/for_in_without_var.txt</tspan>
+<tspan x="10" y="4602">261.  2017-04-19 02:38:58 +0000      243 bytes  specs/pending/global.txt</tspan>
+<tspan x="10" y="4618">262.  2017-04-19 02:38:58 +0000       73 bytes  specs/pending/object_literal_return.txt</tspan>
+<tspan x="10" y="4634">263.  2017-04-19 02:38:58 +0000       62 bytes  specs/pending/shadowing_of_function_names.txt</tspan>
+<tspan x="10" y="4650">264.  2017-04-19 02:38:58 +0000       90 bytes  specs/pending/simple_for_loop.txt</tspan>
+<tspan x="10" y="4666">265.  2017-04-19 02:38:58 +0000       90 bytes  specs/pending/simple_for_loop_with_lte.txt</tspan>
+<tspan x="10" y="4682">266.  2017-04-19 02:38:58 +0000       95 bytes  specs/pending/special_characters.txt</tspan>
+<tspan x="10" y="4698">267.  2017-04-19 02:38:58 +0000       34 bytes  specs/precedence/addition_and_multiplication.txt</tspan>
+<tspan x="10" y="4714">268.  2017-04-19 02:38:58 +0000       38 bytes  specs/precedence/binary_expressions.txt</tspan>
+<tspan x="10" y="4730">269.  2017-04-19 02:38:58 +0000       46 bytes  specs/precedence/binary_expressions_with_parens.\</tspan>
 <tspan x="10" y="4746">txt</tspan>
-<tspan x="10" y="4762">270.  2017-04-19 02:37:55 +0000       22 bytes  specs/precedence/call_expression.txt</tspan>
-<tspan x="10" y="4778">271.  2017-04-19 02:37:55 +0000       49 bytes  specs/precedence/instanceof_and_function_call.tx\</tspan>
+<tspan x="10" y="4762">270.  2017-04-19 02:38:58 +0000       22 bytes  specs/precedence/call_expression.txt</tspan>
+<tspan x="10" y="4778">271.  2017-04-19 02:38:58 +0000       49 bytes  specs/precedence/instanceof_and_function_call.tx\</tspan>
 <tspan x="10" y="4794">t</tspan>
-<tspan x="10" y="4810">272.  2017-04-19 02:37:55 +0000      237 bytes  specs/precedence/intransitive_operations_divisio\</tspan>
+<tspan x="10" y="4810">272.  2017-04-19 02:38:58 +0000      237 bytes  specs/precedence/intransitive_operations_divisio\</tspan>
 <tspan x="10" y="4826">n.txt</tspan>
-<tspan x="10" y="4842">273.  2017-04-19 02:37:55 +0000      237 bytes  specs/precedence/intransitive_operations_subtrac\</tspan>
+<tspan x="10" y="4842">273.  2017-04-19 02:38:58 +0000      237 bytes  specs/precedence/intransitive_operations_subtrac\</tspan>
 <tspan x="10" y="4858">tion.txt</tspan>
-<tspan x="10" y="4874">274.  2017-04-19 02:37:55 +0000       53 bytes  specs/precedence/logical_operators.txt</tspan>
-<tspan x="10" y="4890">275.  2017-04-19 02:37:55 +0000       36 bytes  specs/precedence/nested_new.txt</tspan>
-<tspan x="10" y="4906">276.  2017-04-19 02:37:55 +0000       64 bytes  specs/precedence/nested_ternary.txt</tspan>
-<tspan x="10" y="4922">277.  2017-04-19 02:37:55 +0000      118 bytes  specs/precedence/nested_ternary_2.txt</tspan>
-<tspan x="10" y="4938">278.  2017-04-19 02:37:55 +0000       30 bytes  specs/precedence/parenthesized_classname_in_new.\</tspan>
+<tspan x="10" y="4874">274.  2017-04-19 02:38:58 +0000       53 bytes  specs/precedence/logical_operators.txt</tspan>
+<tspan x="10" y="4890">275.  2017-04-19 02:38:58 +0000       36 bytes  specs/precedence/nested_new.txt</tspan>
+<tspan x="10" y="4906">276.  2017-04-19 02:38:58 +0000       64 bytes  specs/precedence/nested_ternary.txt</tspan>
+<tspan x="10" y="4922">277.  2017-04-19 02:38:58 +0000      118 bytes  specs/precedence/nested_ternary_2.txt</tspan>
+<tspan x="10" y="4938">278.  2017-04-19 02:38:58 +0000       30 bytes  specs/precedence/parenthesized_classname_in_new.\</tspan>
 <tspan x="10" y="4954">txt</tspan>
-<tspan x="10" y="4970">279.  2017-04-19 02:37:55 +0000       50 bytes  specs/precedence/strip_useless_parens.txt</tspan>
-<tspan x="10" y="4986">280.  2017-04-19 02:37:55 +0000       63 bytes  specs/precedence/ternary_and_assignment.txt</tspan>
-<tspan x="10" y="5002">281.  2017-04-19 02:37:55 +0000       38 bytes  specs/precedence/typeof_and_member_expression.tx\</tspan>
+<tspan x="10" y="4970">279.  2017-04-19 02:38:58 +0000       50 bytes  specs/precedence/strip_useless_parens.txt</tspan>
+<tspan x="10" y="4986">280.  2017-04-19 02:38:58 +0000       63 bytes  specs/precedence/ternary_and_assignment.txt</tspan>
+<tspan x="10" y="5002">281.  2017-04-19 02:38:58 +0000       38 bytes  specs/precedence/typeof_and_member_expression.tx\</tspan>
 <tspan x="10" y="5018">t</tspan>
-<tspan x="10" y="5034">282.  2017-04-19 02:37:55 +0000      146 bytes  specs/regexp/blank_with_flag.txt</tspan>
-<tspan x="10" y="5050">283.  2017-04-19 02:37:55 +0000      186 bytes  specs/regexp/equals.txt</tspan>
-<tspan x="10" y="5066">284.  2017-04-19 02:37:55 +0000       31 bytes  specs/regexp/equals_with_flag.txt</tspan>
-<tspan x="10" y="5082">285.  2017-04-19 02:37:55 +0000      509 bytes  specs/shadowing/var_shadowing.txt</tspan>
-<tspan x="10" y="5098">286.  2017-04-19 02:37:55 +0000      219 bytes  specs/simple/array_newlines.txt</tspan>
-<tspan x="10" y="5114">287.  2017-04-19 02:37:55 +0000      108 bytes  specs/simple/binary_operators.txt</tspan>
-<tspan x="10" y="5130">288.  2017-04-19 02:37:55 +0000       34 bytes  specs/simple/booleans.txt</tspan>
-<tspan x="10" y="5146">289.  2017-04-19 02:37:55 +0000       66 bytes  specs/simple/call_with_function.txt</tspan>
-<tspan x="10" y="5162">290.  2017-04-19 02:37:55 +0000       43 bytes  specs/simple/debugger_statement.txt</tspan>
-<tspan x="10" y="5178">291.  2017-04-19 02:37:55 +0000       33 bytes  specs/simple/delete.txt</tspan>
-<tspan x="10" y="5194">292.  2017-04-19 02:37:55 +0000       13 bytes  specs/simple/empty_statement.txt</tspan>
-<tspan x="10" y="5210">293.  2017-04-19 02:37:55 +0000       28 bytes  specs/simple/empty_statement_with_other_statemen\</tspan>
+<tspan x="10" y="5034">282.  2017-04-19 02:38:58 +0000      146 bytes  specs/regexp/blank_with_flag.txt</tspan>
+<tspan x="10" y="5050">283.  2017-04-19 02:38:58 +0000      186 bytes  specs/regexp/equals.txt</tspan>
+<tspan x="10" y="5066">284.  2017-04-19 02:38:58 +0000       31 bytes  specs/regexp/equals_with_flag.txt</tspan>
+<tspan x="10" y="5082">285.  2017-04-19 02:38:58 +0000      509 bytes  specs/shadowing/var_shadowing.txt</tspan>
+<tspan x="10" y="5098">286.  2017-04-19 02:38:58 +0000      219 bytes  specs/simple/array_newlines.txt</tspan>
+<tspan x="10" y="5114">287.  2017-04-19 02:38:58 +0000      108 bytes  specs/simple/binary_operators.txt</tspan>
+<tspan x="10" y="5130">288.  2017-04-19 02:38:58 +0000       34 bytes  specs/simple/booleans.txt</tspan>
+<tspan x="10" y="5146">289.  2017-04-19 02:38:58 +0000       66 bytes  specs/simple/call_with_function.txt</tspan>
+<tspan x="10" y="5162">290.  2017-04-19 02:38:58 +0000       43 bytes  specs/simple/debugger_statement.txt</tspan>
+<tspan x="10" y="5178">291.  2017-04-19 02:38:58 +0000       33 bytes  specs/simple/delete.txt</tspan>
+<tspan x="10" y="5194">292.  2017-04-19 02:38:58 +0000       13 bytes  specs/simple/empty_statement.txt</tspan>
+<tspan x="10" y="5210">293.  2017-04-19 02:38:58 +0000       28 bytes  specs/simple/empty_statement_with_other_statemen\</tspan>
 <tspan x="10" y="5226">ts.txt</tspan>
-<tspan x="10" y="5242">294.  2017-04-19 02:37:55 +0000      122 bytes  specs/simple/exponents.txt</tspan>
-<tspan x="10" y="5258">295.  2017-04-19 02:37:55 +0000      218 bytes  specs/simple/exponents_precedence.txt</tspan>
-<tspan x="10" y="5274">296.  2017-04-19 02:37:55 +0000       46 bytes  specs/simple/exponents_with_strange_arguments.tx\</tspan>
+<tspan x="10" y="5242">294.  2017-04-19 02:38:58 +0000      122 bytes  specs/simple/exponents.txt</tspan>
+<tspan x="10" y="5258">295.  2017-04-19 02:38:58 +0000      218 bytes  specs/simple/exponents_precedence.txt</tspan>
+<tspan x="10" y="5274">296.  2017-04-19 02:38:58 +0000       46 bytes  specs/simple/exponents_with_strange_arguments.tx\</tspan>
 <tspan x="10" y="5290">t</tspan>
-<tspan x="10" y="5306">297.  2017-04-19 02:37:55 +0000       52 bytes  specs/simple/function_call.txt</tspan>
-<tspan x="10" y="5322">298.  2017-04-19 02:37:55 +0000       38 bytes  specs/simple/function_call_with_arguments.txt</tspan>
-<tspan x="10" y="5338">299.  2017-04-19 02:37:55 +0000      222 bytes  specs/simple/function_in_switch.txt</tspan>
-<tspan x="10" y="5354">300.  2017-04-19 02:37:55 +0000       26 bytes  specs/simple/increment.txt</tspan>
-<tspan x="10" y="5370">301.  2017-04-19 02:37:55 +0000      102 bytes  specs/simple/indentation_of_parentheses.txt</tspan>
-<tspan x="10" y="5386">302.  2017-04-19 02:37:55 +0000       40 bytes  specs/simple/indented_throw.txt</tspan>
-<tspan x="10" y="5402">303.  2017-04-19 02:37:55 +0000       20 bytes  specs/simple/index_resolution.txt</tspan>
-<tspan x="10" y="5418">304.  2017-04-19 02:37:55 +0000       38 bytes  specs/simple/index_resolution_of_expression.txt</tspan>
-<tspan x="10" y="5434">305.  2017-04-19 02:37:55 +0000       28 bytes  specs/simple/index_resolution_of_strings.txt</tspan>
-<tspan x="10" y="5450">306.  2017-04-19 02:37:55 +0000       37 bytes  specs/simple/index_resolution_witH_this.txt</tspan>
-<tspan x="10" y="5466">307.  2017-04-19 02:37:55 +0000      101 bytes  specs/simple/inline_assignment.txt</tspan>
-<tspan x="10" y="5482">308.  2017-04-19 02:37:55 +0000       41 bytes  specs/simple/logical_expressions.txt</tspan>
-<tspan x="10" y="5498">309.  2017-04-19 02:37:55 +0000       89 bytes  specs/simple/multiple_unary_operators.txt</tspan>
-<tspan x="10" y="5514">310.  2017-04-19 02:37:55 +0000      496 bytes  specs/simple/nested_function_calls.txt</tspan>
-<tspan x="10" y="5530">311.  2017-04-19 02:37:55 +0000      115 bytes  specs/simple/nesting_if_and_assignment.txt</tspan>
-<tspan x="10" y="5546">312.  2017-04-19 02:37:55 +0000      125 bytes  specs/simple/null_check.txt</tspan>
-<tspan x="10" y="5562">313.  2017-04-19 02:37:55 +0000       28 bytes  specs/simple/prefix_increment.txt</tspan>
-<tspan x="10" y="5578">314.  2017-04-19 02:37:55 +0000      279 bytes  specs/simple/prototype.txt</tspan>
-<tspan x="10" y="5594">315.  2017-04-19 02:37:55 +0000      147 bytes  specs/simple/recursing_into_new_functions.txt</tspan>
-<tspan x="10" y="5610">316.  2017-04-19 02:37:55 +0000       56 bytes  specs/simple/return_nothing.txt</tspan>
-<tspan x="10" y="5626">317.  2017-04-19 02:37:55 +0000       39 bytes  specs/simple/scientific_notation.txt</tspan>
-<tspan x="10" y="5642">318.  2017-04-19 02:37:55 +0000       22 bytes  specs/simple/sequence_expression.txt</tspan>
-<tspan x="10" y="5658">319.  2017-04-19 02:37:55 +0000       47 bytes  specs/simple/sequence_expression_with_indent.txt</tspan>
-<tspan x="10" y="5674">320.  2017-04-19 02:37:55 +0000      318 bytes  specs/simple/standalone_this.txt</tspan>
-<tspan x="10" y="5690">321.  2017-04-19 02:37:55 +0000       39 bytes  specs/simple/ternary_operator.txt</tspan>
-<tspan x="10" y="5706">322.  2017-04-19 02:37:55 +0000      176 bytes  specs/simple/ternary_operator_nesting.txt</tspan>
-<tspan x="10" y="5722">323.  2017-04-19 02:37:55 +0000      307 bytes  specs/simple/this_prefix.txt</tspan>
-<tspan x="10" y="5738">324.  2017-04-19 02:37:55 +0000       26 bytes  specs/simple/throw.txt</tspan>
-<tspan x="10" y="5754">325.  2017-04-19 02:37:55 +0000      350 bytes  specs/simple/void_0.txt</tspan>
-<tspan x="10" y="5770">326.  2017-04-19 02:37:55 +0000       93 bytes  specs/spacing/block_comments.txt</tspan>
-<tspan x="10" y="5786">327.  2017-04-19 02:37:55 +0000       75 bytes  specs/spacing/collapsing_extra_newlines.txt</tspan>
-<tspan x="10" y="5802">328.  2017-04-19 02:37:55 +0000      175 bytes  specs/special_cases/assignment_in_condition.txt</tspan>
-<tspan x="10" y="5818">329.  2017-04-19 02:37:55 +0000     2822 bytes  specs/special_cases/browserify_standalone_wrappe\</tspan>
+<tspan x="10" y="5306">297.  2017-04-19 02:38:58 +0000       52 bytes  specs/simple/function_call.txt</tspan>
+<tspan x="10" y="5322">298.  2017-04-19 02:38:58 +0000       38 bytes  specs/simple/function_call_with_arguments.txt</tspan>
+<tspan x="10" y="5338">299.  2017-04-19 02:38:58 +0000      222 bytes  specs/simple/function_in_switch.txt</tspan>
+<tspan x="10" y="5354">300.  2017-04-19 02:38:58 +0000       26 bytes  specs/simple/increment.txt</tspan>
+<tspan x="10" y="5370">301.  2017-04-19 02:38:58 +0000      102 bytes  specs/simple/indentation_of_parentheses.txt</tspan>
+<tspan x="10" y="5386">302.  2017-04-19 02:38:58 +0000       40 bytes  specs/simple/indented_throw.txt</tspan>
+<tspan x="10" y="5402">303.  2017-04-19 02:38:58 +0000       20 bytes  specs/simple/index_resolution.txt</tspan>
+<tspan x="10" y="5418">304.  2017-04-19 02:38:58 +0000       38 bytes  specs/simple/index_resolution_of_expression.txt</tspan>
+<tspan x="10" y="5434">305.  2017-04-19 02:38:58 +0000       28 bytes  specs/simple/index_resolution_of_strings.txt</tspan>
+<tspan x="10" y="5450">306.  2017-04-19 02:38:58 +0000       37 bytes  specs/simple/index_resolution_witH_this.txt</tspan>
+<tspan x="10" y="5466">307.  2017-04-19 02:38:58 +0000      101 bytes  specs/simple/inline_assignment.txt</tspan>
+<tspan x="10" y="5482">308.  2017-04-19 02:38:58 +0000       41 bytes  specs/simple/logical_expressions.txt</tspan>
+<tspan x="10" y="5498">309.  2017-04-19 02:38:58 +0000       89 bytes  specs/simple/multiple_unary_operators.txt</tspan>
+<tspan x="10" y="5514">310.  2017-04-19 02:38:58 +0000      496 bytes  specs/simple/nested_function_calls.txt</tspan>
+<tspan x="10" y="5530">311.  2017-04-19 02:38:58 +0000      115 bytes  specs/simple/nesting_if_and_assignment.txt</tspan>
+<tspan x="10" y="5546">312.  2017-04-19 02:38:58 +0000      125 bytes  specs/simple/null_check.txt</tspan>
+<tspan x="10" y="5562">313.  2017-04-19 02:38:58 +0000       28 bytes  specs/simple/prefix_increment.txt</tspan>
+<tspan x="10" y="5578">314.  2017-04-19 02:38:58 +0000      279 bytes  specs/simple/prototype.txt</tspan>
+<tspan x="10" y="5594">315.  2017-04-19 02:38:58 +0000      147 bytes  specs/simple/recursing_into_new_functions.txt</tspan>
+<tspan x="10" y="5610">316.  2017-04-19 02:38:58 +0000       56 bytes  specs/simple/return_nothing.txt</tspan>
+<tspan x="10" y="5626">317.  2017-04-19 02:38:58 +0000       39 bytes  specs/simple/scientific_notation.txt</tspan>
+<tspan x="10" y="5642">318.  2017-04-19 02:38:58 +0000       22 bytes  specs/simple/sequence_expression.txt</tspan>
+<tspan x="10" y="5658">319.  2017-04-19 02:38:58 +0000       47 bytes  specs/simple/sequence_expression_with_indent.txt</tspan>
+<tspan x="10" y="5674">320.  2017-04-19 02:38:58 +0000      318 bytes  specs/simple/standalone_this.txt</tspan>
+<tspan x="10" y="5690">321.  2017-04-19 02:38:58 +0000       39 bytes  specs/simple/ternary_operator.txt</tspan>
+<tspan x="10" y="5706">322.  2017-04-19 02:38:58 +0000      176 bytes  specs/simple/ternary_operator_nesting.txt</tspan>
+<tspan x="10" y="5722">323.  2017-04-19 02:38:58 +0000      307 bytes  specs/simple/this_prefix.txt</tspan>
+<tspan x="10" y="5738">324.  2017-04-19 02:38:58 +0000       26 bytes  specs/simple/throw.txt</tspan>
+<tspan x="10" y="5754">325.  2017-04-19 02:38:58 +0000      350 bytes  specs/simple/void_0.txt</tspan>
+<tspan x="10" y="5770">326.  2017-04-19 02:38:58 +0000       93 bytes  specs/spacing/block_comments.txt</tspan>
+<tspan x="10" y="5786">327.  2017-04-19 02:38:58 +0000       75 bytes  specs/spacing/collapsing_extra_newlines.txt</tspan>
+<tspan x="10" y="5802">328.  2017-04-19 02:38:58 +0000      175 bytes  specs/special_cases/assignment_in_condition.txt</tspan>
+<tspan x="10" y="5818">329.  2017-04-19 02:38:58 +0000     2822 bytes  specs/special_cases/browserify_standalone_wrappe\</tspan>
 <tspan x="10" y="5834">r.txt</tspan>
-<tspan x="10" y="5850">330.  2017-04-19 02:37:55 +0000     1620 bytes  specs/special_cases/browserify_wrapper.txt</tspan>
-<tspan x="10" y="5866">331.  2017-04-19 02:37:55 +0000       61 bytes  specs/special_cases/unary_and_object_expression.\</tspan>
+<tspan x="10" y="5850">330.  2017-04-19 02:38:58 +0000     1620 bytes  specs/special_cases/browserify_wrapper.txt</tspan>
+<tspan x="10" y="5866">331.  2017-04-19 02:38:58 +0000       61 bytes  specs/special_cases/unary_and_object_expression.\</tspan>
 <tspan x="10" y="5882">txt</tspan>
-<tspan x="10" y="5898">332.  2017-04-19 02:37:55 +0000      139 bytes  specs/special_cases/unary_and_object_with_call.t\</tspan>
+<tspan x="10" y="5898">332.  2017-04-19 02:38:58 +0000      139 bytes  specs/special_cases/unary_and_object_with_call.t\</tspan>
 <tspan x="10" y="5914">xt</tspan>
-<tspan x="10" y="5930">333.  2017-04-19 02:37:55 +0000       16 bytes  specs/strings/empty_string.txt</tspan>
-<tspan x="10" y="5946">334.  2017-04-19 02:37:55 +0000      106 bytes  specs/strings/prevent_interpolation.txt</tspan>
-<tspan x="10" y="5962">335.  2017-04-19 02:37:55 +0000       26 bytes  specs/strings/simple_string.txt</tspan>
-<tspan x="10" y="5978">336.  2017-04-19 02:37:55 +0000       20 bytes  specs/strings/single_quotes.txt</tspan>
-<tspan x="10" y="5994">337.  2017-04-19 02:37:55 +0000       20 bytes  specs/strings/string_with_escapes.txt</tspan>
-<tspan x="10" y="6010">338.  2017-04-19 02:37:55 +0000       46 bytes  specs/strings/unicode.txt</tspan>
-<tspan x="10" y="6026">339.  2017-04-19 02:37:55 +0000      349 bytes  specs/switch/case_consolidation.txt</tspan>
-<tspan x="10" y="6042">340.  2017-04-19 02:37:55 +0000      358 bytes  specs/switch/case_consolidation_with_default.txt</tspan>
-<tspan x="10" y="6058">341.  2017-04-19 02:37:55 +0000      183 bytes  specs/switch/switch.txt</tspan>
-<tspan x="10" y="6074">342.  2017-04-19 02:37:55 +0000      267 bytes  specs/switch/switch_with_comments.txt</tspan>
-<tspan x="10" y="6090">343.  2017-04-19 02:37:55 +0000      166 bytes  specs/switch/switch_with_conditional_expression.\</tspan>
+<tspan x="10" y="5930">333.  2017-04-19 02:38:58 +0000       16 bytes  specs/strings/empty_string.txt</tspan>
+<tspan x="10" y="5946">334.  2017-04-19 02:38:58 +0000      106 bytes  specs/strings/prevent_interpolation.txt</tspan>
+<tspan x="10" y="5962">335.  2017-04-19 02:38:58 +0000       26 bytes  specs/strings/simple_string.txt</tspan>
+<tspan x="10" y="5978">336.  2017-04-19 02:38:58 +0000       20 bytes  specs/strings/single_quotes.txt</tspan>
+<tspan x="10" y="5994">337.  2017-04-19 02:38:58 +0000       20 bytes  specs/strings/string_with_escapes.txt</tspan>
+<tspan x="10" y="6010">338.  2017-04-19 02:38:58 +0000       46 bytes  specs/strings/unicode.txt</tspan>
+<tspan x="10" y="6026">339.  2017-04-19 02:38:58 +0000      349 bytes  specs/switch/case_consolidation.txt</tspan>
+<tspan x="10" y="6042">340.  2017-04-19 02:38:58 +0000      358 bytes  specs/switch/case_consolidation_with_default.txt</tspan>
+<tspan x="10" y="6058">341.  2017-04-19 02:38:58 +0000      183 bytes  specs/switch/switch.txt</tspan>
+<tspan x="10" y="6074">342.  2017-04-19 02:38:58 +0000      267 bytes  specs/switch/switch_with_comments.txt</tspan>
+<tspan x="10" y="6090">343.  2017-04-19 02:38:58 +0000      166 bytes  specs/switch/switch_with_conditional_expression.\</tspan>
 <tspan x="10" y="6106">txt</tspan>
-<tspan x="10" y="6122">344.  2017-04-19 02:37:55 +0000      116 bytes  specs/switch/switch_with_continue.txt</tspan>
-<tspan x="10" y="6138">345.  2017-04-19 02:37:55 +0000      212 bytes  specs/switch/switch_with_return.txt</tspan>
-<tspan x="10" y="6154">346.  2017-04-19 02:37:55 +0000       70 bytes  specs/try/no_finally.txt</tspan>
-<tspan x="10" y="6170">347.  2017-04-19 02:37:55 +0000      103 bytes  specs/try/try_catch_finally.txt</tspan>
-<tspan x="10" y="6186">348.  2017-04-19 02:37:55 +0000      131 bytes  specs/try/try_with_indent.txt</tspan>
-<tspan x="10" y="6202">349.  2017-04-19 02:37:55 +0000      106 bytes  specs/var/mixed_var_declarations.txt</tspan>
-<tspan x="10" y="6218">350.  2017-04-19 02:37:55 +0000       39 bytes  specs/var/multiple_var_declaration.txt</tspan>
-<tspan x="10" y="6234">351.  2017-04-19 02:37:55 +0000       68 bytes  specs/var/multiple_var_declarations_with_indent.\</tspan>
+<tspan x="10" y="6122">344.  2017-04-19 02:38:58 +0000      116 bytes  specs/switch/switch_with_continue.txt</tspan>
+<tspan x="10" y="6138">345.  2017-04-19 02:38:58 +0000      212 bytes  specs/switch/switch_with_return.txt</tspan>
+<tspan x="10" y="6154">346.  2017-04-19 02:38:58 +0000       70 bytes  specs/try/no_finally.txt</tspan>
+<tspan x="10" y="6170">347.  2017-04-19 02:38:58 +0000      103 bytes  specs/try/try_catch_finally.txt</tspan>
+<tspan x="10" y="6186">348.  2017-04-19 02:38:58 +0000      131 bytes  specs/try/try_with_indent.txt</tspan>
+<tspan x="10" y="6202">349.  2017-04-19 02:38:58 +0000      106 bytes  specs/var/mixed_var_declarations.txt</tspan>
+<tspan x="10" y="6218">350.  2017-04-19 02:38:58 +0000       39 bytes  specs/var/multiple_var_declaration.txt</tspan>
+<tspan x="10" y="6234">351.  2017-04-19 02:38:58 +0000       68 bytes  specs/var/multiple_var_declarations_with_indent.\</tspan>
 <tspan x="10" y="6250">txt</tspan>
-<tspan x="10" y="6266">352.  2017-04-19 02:37:55 +0000       26 bytes  specs/var/var_declaration.txt</tspan>
-<tspan x="10" y="6282">353.  2017-04-19 02:37:55 +0000      413 bytes  specs/var/var_without_initializer.txt</tspan>
-<tspan x="10" y="6298">354.  2017-04-19 02:37:55 +0000       73 bytes  specs/warnings/equals.txt</tspan>
-<tspan x="10" y="6314">355.  2017-04-19 02:37:55 +0000      108 bytes  specs/warnings/for_in_without_var.txt</tspan>
-<tspan x="10" y="6330">356.  2017-04-19 02:37:55 +0000      137 bytes  specs/warnings/shadowing.txt</tspan>
-<tspan x="10" y="6346">357.  2017-04-19 02:37:55 +0000     1200 bytes  test/build.coffee</tspan>
-<tspan x="10" y="6362">358.  2017-04-19 02:37:55 +0000      549 bytes  test/builder_base.coffee</tspan>
-<tspan x="10" y="6378">359.  2017-04-19 02:37:55 +0000      559 bytes  test/errors.coffee</tspan>
-<tspan x="10" y="6394">360.  2017-04-19 02:37:55 +0000      468 bytes  test/helpers.coffee</tspan>
-<tspan x="10" y="6410">361.  2017-04-19 02:37:55 +0000      105 bytes  test/mocha.opts</tspan>
-<tspan x="10" y="6426">362.  2017-04-19 02:37:55 +0000      682 bytes  test/precedence.coffee</tspan>
-<tspan x="10" y="6442">363.  2017-04-19 02:37:55 +0000       92 bytes  test/setup.coffee</tspan>
-<tspan x="10" y="6458">364.  2017-04-19 02:37:55 +0000     1205 bytes  test/specs.coffee</tspan>
-<tspan x="10" y="6474">365.  2017-04-19 02:37:55 +0000      566 bytes  test/unsupported.coffee</tspan>
-<tspan x="10" y="6490">366.  2017-04-19 02:37:55 +0000      245 bytes  test/version.coffee</tspan>
-<tspan x="10" y="6506">367.  2017-04-19 02:37:55 +0000     1010 bytes  test/warnings.coffee</tspan>
+<tspan x="10" y="6266">352.  2017-04-19 02:38:58 +0000       26 bytes  specs/var/var_declaration.txt</tspan>
+<tspan x="10" y="6282">353.  2017-04-19 02:38:58 +0000      413 bytes  specs/var/var_without_initializer.txt</tspan>
+<tspan x="10" y="6298">354.  2017-04-19 02:38:58 +0000       73 bytes  specs/warnings/equals.txt</tspan>
+<tspan x="10" y="6314">355.  2017-04-19 02:38:58 +0000      108 bytes  specs/warnings/for_in_without_var.txt</tspan>
+<tspan x="10" y="6330">356.  2017-04-19 02:38:58 +0000      137 bytes  specs/warnings/shadowing.txt</tspan>
+<tspan x="10" y="6346">357.  2017-04-19 02:38:58 +0000     1200 bytes  test/build.coffee</tspan>
+<tspan x="10" y="6362">358.  2017-04-19 02:38:58 +0000      549 bytes  test/builder_base.coffee</tspan>
+<tspan x="10" y="6378">359.  2017-04-19 02:38:58 +0000      559 bytes  test/errors.coffee</tspan>
+<tspan x="10" y="6394">360.  2017-04-19 02:38:58 +0000      468 bytes  test/helpers.coffee</tspan>
+<tspan x="10" y="6410">361.  2017-04-19 02:38:58 +0000      105 bytes  test/mocha.opts</tspan>
+<tspan x="10" y="6426">362.  2017-04-19 02:38:58 +0000      682 bytes  test/precedence.coffee</tspan>
+<tspan x="10" y="6442">363.  2017-04-19 02:38:58 +0000       92 bytes  test/setup.coffee</tspan>
+<tspan x="10" y="6458">364.  2017-04-19 02:38:58 +0000     1205 bytes  test/specs.coffee</tspan>
+<tspan x="10" y="6474">365.  2017-04-19 02:38:58 +0000      566 bytes  test/unsupported.coffee</tspan>
+<tspan x="10" y="6490">366.  2017-04-19 02:38:58 +0000      245 bytes  test/version.coffee</tspan>
+<tspan x="10" y="6506">367.  2017-04-19 02:38:58 +0000     1010 bytes  test/warnings.coffee</tspan>
 </text>
 </svg>
