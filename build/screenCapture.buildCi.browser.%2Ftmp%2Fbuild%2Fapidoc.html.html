@@ -101,7 +101,80 @@
 
         <li>
 
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">js2coffee.</span>cli</span>
+
+        </li>
+
+        <li>
+
             <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">js2coffee.</span>version</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.js2coffee.cli">module js2coffee.cli</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.js2coffee.cli._parseArgs">
+            function <span class="apidocSignatureSpan">js2coffee.cli.</span>_parseArgs
+            <span class="apidocSignatureSpan">(options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.js2coffee.cli._run">
+            function <span class="apidocSignatureSpan">js2coffee.cli.</span>_run
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.js2coffee.cli.cmd">
+            function <span class="apidocSignatureSpan">js2coffee.cli.</span>cmd
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.js2coffee.cli.help">
+            function <span class="apidocSignatureSpan">js2coffee.cli.</span>help
+            <span class="apidocSignatureSpan">(str)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.js2coffee.cli.helpfile">
+            function <span class="apidocSignatureSpan">js2coffee.cli.</span>helpfile
+            <span class="apidocSignatureSpan">(fname)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.js2coffee.cli.minimist">
+            function <span class="apidocSignatureSpan">js2coffee.cli.</span>minimist
+            <span class="apidocSignatureSpan">(options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.js2coffee.cli.version">
+            function <span class="apidocSignatureSpan">js2coffee.cli.</span>version
+            <span class="apidocSignatureSpan">(ver)</span>
+            </a>
 
         </li>
 
@@ -200,6 +273,253 @@ return{ast:t,warnings:r.warnings}}</pre></li>
     </ul>
 
 
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.js2coffee.cli" id="apidoc.module.js2coffee.cli">module js2coffee.cli</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.js2coffee.cli._parseArgs" id="apidoc.element.js2coffee.cli._parseArgs">
+        function <span class="apidocSignatureSpan">js2coffee.cli.</span>_parseArgs
+        <span class="apidocSignatureSpan">(options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_parseArgs = function (options) {
+  if (!cli._args)
+    cli._args = require('minimist')(process.argv.slice(2), options || {});
+  return cli;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+/**
+ * minimist() : cli.minimist({ ... })
+ * Parses arguments using minimist.
+ */
+
+cli.minimist = function (options) {
+cli.<span class="apidocCodeKeywordSpan">_parseArgs</span>(options);
+cli._run();
+return cli._args;
+};
+
+cli._parseArgs = function (options) {
+if (!cli._args)
+  cli._args = require('minimist')(process.argv.slice(2), options || {});
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.js2coffee.cli._run" id="apidoc.element.js2coffee.cli._run">
+        function <span class="apidocSignatureSpan">js2coffee.cli.</span>_run
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_run = function () {
+  var args = this._args;
+  if (args.help) {
+    cli.help();
+    process.exit();
+  }
+  if (args.version) {
+    cli.version();
+    process.exit();
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+/**
+ * minimist() : cli.minimist({ ... })
+ * Parses arguments using minimist.
+ */
+
+cli.minimist = function (options) {
+cli._parseArgs(options);
+cli.<span class="apidocCodeKeywordSpan">_run</span>();
+return cli._args;
+};
+
+cli._parseArgs = function (options) {
+if (!cli._args)
+  cli._args = require('minimist')(process.argv.slice(2), options || {});
+return cli;
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.js2coffee.cli.cmd" id="apidoc.element.js2coffee.cli.cmd">
+        function <span class="apidocSignatureSpan">js2coffee.cli.</span>cmd
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">cmd = function () {
+  return require('path').basename(process.argv[1]);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ *     // $ myapp --version
+ */
+
+var cli = module.exports = {};
+var fs = require('fs');
+
+/**
+ * cmd() : cli.<span class="apidocCodeKeywordSpan">cmd</span>()
+ * Returns the command name.
+ */
+
+cli.cmd = function () {
+  return require('path').basename(process.argv[1]);
+};
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.js2coffee.cli.help" id="apidoc.element.js2coffee.cli.help">
+        function <span class="apidocSignatureSpan">js2coffee.cli.</span>help
+        <span class="apidocSignatureSpan">(str)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">help = function (str) {
+  if (str) {
+    cli._help = str;
+    return this;
+  } else {
+    process.stdout.write((cli._help || '').replace(/\$0/g, cli.cmd()));
+    return this;
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ */
+
+cli.cmd = function () {
+return require('path').basename(process.argv[1]);
+};
+
+/**
+ * help() : cli.<span class="apidocCodeKeywordSpan">help</span>([help])
+ * Sets or prints the help text. If `help` is given, sets the help text to that.
+ * If no arguments are given, the help text is printed.
+ */
+
+cli.help = function (str) {
+if (str) {
+  cli._help = str;
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.js2coffee.cli.helpfile" id="apidoc.element.js2coffee.cli.helpfile">
+        function <span class="apidocSignatureSpan">js2coffee.cli.</span>helpfile
+        <span class="apidocSignatureSpan">(fname)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">helpfile = function (fname) {
+  cli._help = fs.readFileSync(fname, 'utf-8');
+  return this;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+
+/**
+* cli:
+* minimal command-line helper on top of minimist.
+*
+*     var args = require('../lib/cli')
+*       .<span class="apidocCodeKeywordSpan">helpfile</span>(__dirname+'/../help.txt')
+*       .version(require('../package.json').version)
+*       .args({
+*         alias: { h: 'help', v: 'version' }
+*       });
+*
+*     // $ myapp --help
+*     // $ myapp --version
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.js2coffee.cli.minimist" id="apidoc.element.js2coffee.cli.minimist">
+        function <span class="apidocSignatureSpan">js2coffee.cli.</span>minimist
+        <span class="apidocSignatureSpan">(options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">minimist = function (options) {
+  cli._parseArgs(options);
+  cli._run();
+  return cli._args;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+else
+  console.log(cli._version);
+
+return this;
+};
+
+/**
+ * minimist() : cli.<span class="apidocCodeKeywordSpan">minimist</span>({ ... })
+ * Parses arguments using minimist.
+ */
+
+cli.minimist = function (options) {
+cli._parseArgs(options);
+cli._run();
+return cli._args;
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.js2coffee.cli.version" id="apidoc.element.js2coffee.cli.version">
+        function <span class="apidocSignatureSpan">js2coffee.cli.</span>version
+        <span class="apidocSignatureSpan">(ver)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">version = function (ver) {
+  if (ver)
+    cli._version = ver;
+  else
+    console.log(cli._version);
+
+  return this;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+/**
+* cli:
+* minimal command-line helper on top of minimist.
+*
+*     var args = require('../lib/cli')
+*       .helpfile(__dirname+'/../help.txt')
+*       .<span class="apidocCodeKeywordSpan">version</span>(require('../package.json').version)
+*       .args({
+*         alias: { h: 'help', v: 'version' }
+*       });
+*
+*     // $ myapp --help
+*     // $ myapp --version
+*/
+...</pre></li>
+    </ul>
 
 
 </div>
